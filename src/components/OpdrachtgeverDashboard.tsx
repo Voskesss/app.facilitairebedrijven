@@ -1,6 +1,34 @@
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BellIcon, UserCircleIcon } from '@heroicons/react/24/outline';
+import { useAuth } from '../hooks/useAuth';
+import BaseLayout from './layout/BaseLayout';
+import {
+  Box,
+  Paper,
+  Typography,
+  AppBar,
+  Toolbar,
+  IconButton,
+  Menu,
+  MenuItem,
+  Grid,
+  Card,
+  CardContent,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Button,
+  Chip,
+  CircularProgress
+} from '@mui/material';
+import {
+  NotificationsOutlined as NotificationsIcon,
+  AccountCircle as AccountCircleIcon,
+  TrendingUp as TrendingUpIcon
+} from '@mui/icons-material';
 
 interface UserData {
   name: string;
@@ -11,7 +39,17 @@ interface UserData {
 const OpdrachtgeverDashboard = () => {
   const [userData, setUserData] = useState<UserData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const navigate = useNavigate();
+  const { logout } = useAuth();
+
+  const handleMenu = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
 
   useEffect(() => {
     const userRole = localStorage.getItem('user_role');
@@ -41,120 +79,154 @@ const OpdrachtgeverDashboard = () => {
     fetchUserData();
   }, [navigate]);
 
+  const DashboardHeader = (
+    <AppBar position="static" color="primary">
+      <Toolbar>
+        <Box sx={{ flexGrow: 1 }}>
+          <img
+            src="/fb-logo.png"
+            alt="Facilitaire Bedrijven"
+            style={{ height: 32 }}
+          />
+        </Box>
+        <IconButton color="inherit" size="large">
+          <NotificationsIcon />
+        </IconButton>
+        <IconButton
+          size="large"
+          onClick={handleMenu}
+          color="inherit"
+        >
+          <AccountCircleIcon />
+        </IconButton>
+        <Menu
+          anchorEl={anchorEl}
+          open={Boolean(anchorEl)}
+          onClose={handleClose}
+        >
+          <MenuItem>Profiel</MenuItem>
+          <MenuItem>Instellingen</MenuItem>
+          <MenuItem onClick={logout}>Uitloggen</MenuItem>
+        </Menu>
+      </Toolbar>
+    </AppBar>
+  );
+
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="loading loading-spinner loading-lg"></div>
-      </div>
+      <Box display="flex" justifyContent="center" alignItems="center" minHeight="100vh">
+        <CircularProgress />
+      </Box>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Navigatie */}
-      <nav className="bg-fb-blue text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
-              <img
-                className="h-8 w-auto"
-                src="/fb-logo.png"
-                alt="Facilitaire Bedrijven"
-              />
-            </div>
-            <div className="flex items-center space-x-4">
-              <button className="btn btn-ghost btn-circle">
-                <BellIcon className="h-6 w-6" />
-              </button>
-              <div className="dropdown dropdown-end">
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                  <UserCircleIcon className="h-8 w-8" />
-                </label>
-                <ul tabIndex={0} className="menu dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Profiel</a></li>
-                  <li><a>Instellingen</a></li>
-                  <li><a onClick={() => {
-                    localStorage.clear();
-                    navigate('/login');
-                  }}>Uitloggen</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      {/* Main content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <BaseLayout header={DashboardHeader}>
+      <Box sx={{ flexGrow: 1, p: 3 }}>
+        <Grid container spacing={3}>
           {/* Welkom kaart */}
-          <div className="col-span-3 bg-white rounded-lg shadow-md p-6">
-            <h1 className="text-2xl font-bold text-gray-900">
-              Welkom terug, {userData?.name}
-            </h1>
-            <p className="mt-1 text-gray-600">
-              Opdrachtgever Dashboard
-            </p>
-          </div>
+          <Grid item xs={12}>
+            <Paper sx={{ p: 3 }}>
+              <Typography variant="h4" gutterBottom>
+                Welkom terug, {userData?.name}
+              </Typography>
+              <Typography variant="subtitle1" color="text.secondary">
+                Opdrachtgever Dashboard
+              </Typography>
+            </Paper>
+          </Grid>
 
           {/* Statistieken */}
-          <div className="stats shadow">
-            <div className="stat">
-              <div className="stat-title">Openstaande Aanvragen</div>
-              <div className="stat-value">3</div>
-              <div className="stat-desc">↗︎ 1 (33%)</div>
-            </div>
-          </div>
+          <Grid item xs={12} md={4}>
+            <Card>
+              <CardContent>
+                <Typography color="text.secondary" gutterBottom>
+                  Openstaande Aanvragen
+                </Typography>
+                <Typography variant="h4">3</Typography>
+                <Typography variant="body2" color="success.main" sx={{ display: 'flex', alignItems: 'center' }}>
+                  <TrendingUpIcon sx={{ mr: 1 }} />
+                  33% meer dan vorige maand
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
 
-          <div className="stats shadow">
-            <div className="stat">
-              <div className="stat-title">Actieve Projecten</div>
-              <div className="stat-value">5</div>
-              <div className="stat-desc">↗︎ 2 (40%)</div>
-            </div>
-          </div>
+          <Grid item xs={12} md={4}>
+            <Card>
+              <CardContent>
+                <Typography color="text.secondary" gutterBottom>
+                  Actieve Projecten
+                </Typography>
+                <Typography variant="h4">5</Typography>
+                <Typography variant="body2" color="success.main" sx={{ display: 'flex', alignItems: 'center' }}>
+                  <TrendingUpIcon sx={{ mr: 1 }} />
+                  40% meer dan vorige maand
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
 
-          <div className="stats shadow">
-            <div className="stat">
-              <div className="stat-title">Ontvangen Offertes</div>
-              <div className="stat-value">8</div>
-              <div className="stat-desc">↗︎ 4 (50%)</div>
-            </div>
-          </div>
+          <Grid item xs={12} md={4}>
+            <Card>
+              <CardContent>
+                <Typography color="text.secondary" gutterBottom>
+                  Ontvangen Offertes
+                </Typography>
+                <Typography variant="h4">8</Typography>
+                <Typography variant="body2" color="success.main" sx={{ display: 'flex', alignItems: 'center' }}>
+                  <TrendingUpIcon sx={{ mr: 1 }} />
+                  50% meer dan vorige maand
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
 
-          {/* Recent overzicht */}
-          <div className="col-span-3 bg-white rounded-lg shadow-md p-6">
-            <h2 className="text-xl font-semibold mb-4">Recente Aanvragen</h2>
-            <div className="overflow-x-auto">
-              <table className="table w-full">
-                <thead>
-                  <tr>
-                    <th>Project</th>
-                    <th>Status</th>
-                    <th>Aantal Offertes</th>
-                    <th>Actie</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Schoonmaak Hoofdkantoor</td>
-                    <td><span className="badge badge-warning">Wacht op offertes</span></td>
-                    <td>3</td>
-                    <td><button className="btn btn-sm">Bekijk</button></td>
-                  </tr>
-                  <tr>
-                    <td>Catering Events 2024</td>
-                    <td><span className="badge badge-success">Offertes ontvangen</span></td>
-                    <td>5</td>
-                    <td><button className="btn btn-sm">Bekijk</button></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          {/* Recente Aanvragen Tabel */}
+          <Grid item xs={12}>
+            <Paper sx={{ p: 3 }}>
+              <Typography variant="h6" gutterBottom>
+                Recente Aanvragen
+              </Typography>
+              <TableContainer>
+                <Table>
+                  <TableHead>
+                    <TableRow>
+                      <TableCell>Project</TableCell>
+                      <TableCell>Status</TableCell>
+                      <TableCell>Aantal Offertes</TableCell>
+                      <TableCell>Actie</TableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    <TableRow>
+                      <TableCell>Schoonmaak Hoofdkantoor</TableCell>
+                      <TableCell>
+                        <Chip label="Wacht op offertes" color="warning" />
+                      </TableCell>
+                      <TableCell>3</TableCell>
+                      <TableCell>
+                        <Button variant="contained" size="small">Bekijk</Button>
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell>Catering Events 2024</TableCell>
+                      <TableCell>
+                        <Chip label="Offertes ontvangen" color="success" />
+                      </TableCell>
+                      <TableCell>5</TableCell>
+                      <TableCell>
+                        <Button variant="contained" size="small">Bekijk</Button>
+                      </TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </TableContainer>
+            </Paper>
+          </Grid>
+        </Grid>
+      </Box>
+    </BaseLayout>
   );
 };
 
