@@ -1,6 +1,24 @@
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BellIcon, UserCircleIcon } from '@heroicons/react/24/outline';
+import BaseLayout from './layout/BaseLayout';
+import {
+  Box,
+  Paper,
+  Typography,
+  Grid,
+  Card,
+  CardContent,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Button,
+  Chip,
+  CircularProgress
+} from '@mui/material';
+import { TrendingUp as TrendingUpIcon } from '@mui/icons-material';
 
 interface UserData {
   name: string;
@@ -43,118 +61,117 @@ const AanbiederDashboard = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="loading loading-spinner loading-lg"></div>
-      </div>
+      <Box display="flex" justifyContent="center" alignItems="center" minHeight="100vh">
+        <CircularProgress />
+      </Box>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Navigatie */}
-      <nav className="bg-fb-blue text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
-              <img
-                className="h-8 w-auto"
-                src="/fb-logo.png"
-                alt="Facilitaire Bedrijven"
-              />
-            </div>
-            <div className="flex items-center space-x-4">
-              <button className="btn btn-ghost btn-circle">
-                <BellIcon className="h-6 w-6" />
-              </button>
-              <div className="dropdown dropdown-end">
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                  <UserCircleIcon className="h-8 w-8" />
-                </label>
-                <ul tabIndex={0} className="menu dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Profiel</a></li>
-                  <li><a>Instellingen</a></li>
-                  <li><a onClick={() => {
-                    localStorage.clear();
-                    navigate('/login');
-                  }}>Uitloggen</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      {/* Main content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Welkom kaart */}
-          <div className="col-span-3 bg-white rounded-lg shadow-md p-6">
-            <h1 className="text-2xl font-bold text-gray-900">
+    <BaseLayout maxWidth={false}>
+      <Grid container spacing={3}>
+        {/* Welkom kaart */}
+        <Grid item xs={12}>
+          <Paper sx={{ p: { xs: 2, sm: 3 } }}>
+            <Typography variant="h4" gutterBottom>
               Welkom terug, {userData?.name}
-            </h1>
-            <p className="mt-1 text-gray-600">
+            </Typography>
+            <Typography variant="subtitle1" color="text.secondary">
               Aanbieder Dashboard
-            </p>
-          </div>
+            </Typography>
+          </Paper>
+        </Grid>
 
-          {/* Statistieken */}
-          <div className="stats shadow">
-            <div className="stat">
-              <div className="stat-title">Actieve Offertes</div>
-              <div className="stat-value">12</div>
-              <div className="stat-desc">↗︎ 2 (14%)</div>
-            </div>
-          </div>
+        {/* Statistieken */}
+        <Grid item xs={12} sm={6} md={4}>
+          <Card>
+            <CardContent>
+              <Typography color="text.secondary" gutterBottom>
+                Actieve Offertes
+              </Typography>
+              <Typography variant="h4">12</Typography>
+              <Typography variant="body2" color="success.main" sx={{ display: 'flex', alignItems: 'center' }}>
+                <TrendingUpIcon sx={{ mr: 1 }} />
+                14% meer dan vorige maand
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
 
-          <div className="stats shadow">
-            <div className="stat">
-              <div className="stat-title">Lopende Projecten</div>
-              <div className="stat-value">4</div>
-              <div className="stat-desc">↘︎ 1 (7%)</div>
-            </div>
-          </div>
+        <Grid item xs={12} sm={6} md={4}>
+          <Card>
+            <CardContent>
+              <Typography color="text.secondary" gutterBottom>
+                Lopende Projecten
+              </Typography>
+              <Typography variant="h4">4</Typography>
+              <Typography variant="body2" color="success.main" sx={{ display: 'flex', alignItems: 'center' }}>
+                <TrendingUpIcon sx={{ mr: 1 }} />
+                7% meer dan vorige maand
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
 
-          <div className="stats shadow">
-            <div className="stat">
-              <div className="stat-title">Nieuwe Aanvragen</div>
-              <div className="stat-value">7</div>
-              <div className="stat-desc">↗︎ 3 (21%)</div>
-            </div>
-          </div>
+        <Grid item xs={12} sm={6} md={4}>
+          <Card>
+            <CardContent>
+              <Typography color="text.secondary" gutterBottom>
+                Nieuwe Aanvragen
+              </Typography>
+              <Typography variant="h4">7</Typography>
+              <Typography variant="body2" color="success.main" sx={{ display: 'flex', alignItems: 'center' }}>
+                <TrendingUpIcon sx={{ mr: 1 }} />
+                21% meer dan vorige maand
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
 
-          {/* Recent overzicht */}
-          <div className="col-span-3 bg-white rounded-lg shadow-md p-6">
-            <h2 className="text-xl font-semibold mb-4">Recente Activiteit</h2>
-            <div className="overflow-x-auto">
-              <table className="table w-full">
-                <thead>
-                  <tr>
-                    <th>Project</th>
-                    <th>Status</th>
-                    <th>Deadline</th>
-                    <th>Actie</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Kantoor Schoonmaak B.V.</td>
-                    <td><span className="badge badge-warning">In behandeling</span></td>
-                    <td>23 Dec 2024</td>
-                    <td><button className="btn btn-sm">Bekijk</button></td>
-                  </tr>
-                  <tr>
-                    <td>Facility Services Amsterdam</td>
-                    <td><span className="badge badge-success">Geaccepteerd</span></td>
-                    <td>15 Dec 2024</td>
-                    <td><button className="btn btn-sm">Bekijk</button></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        {/* Activiteiten Tabel */}
+        <Grid item xs={12}>
+          <Paper sx={{ p: { xs: 2, sm: 3 }, overflow: 'auto' }}>
+            <Typography variant="h6" gutterBottom>
+              Recente Activiteit
+            </Typography>
+            <TableContainer>
+              <Table sx={{ minWidth: 650 }}>
+                <TableHead>
+                  <TableRow>
+                    <TableCell>Project</TableCell>
+                    <TableCell>Status</TableCell>
+                    <TableCell>Deadline</TableCell>
+                    <TableCell>Actie</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  <TableRow>
+                    <TableCell>Kantoor Schoonmaak B.V.</TableCell>
+                    <TableCell>
+                      <Chip label="In behandeling" color="warning" />
+                    </TableCell>
+                    <TableCell>23 Dec 2024</TableCell>
+                    <TableCell>
+                      <Button variant="contained" size="small">Bekijk</Button>
+                    </TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>Facility Services Amsterdam</TableCell>
+                    <TableCell>
+                      <Chip label="Geaccepteerd" color="success" />
+                    </TableCell>
+                    <TableCell>15 Dec 2024</TableCell>
+                    <TableCell>
+                      <Button variant="contained" size="small">Bekijk</Button>
+                    </TableCell>
+                  </TableRow>
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </Paper>
+        </Grid>
+      </Grid>
+    </BaseLayout>
   );
 };
 
