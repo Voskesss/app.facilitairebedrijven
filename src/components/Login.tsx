@@ -1,15 +1,20 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { 
-  TextField, 
-  Button, 
-  Typography, 
-  Box, 
+import {
+  Box,
+  Paper,
+  TextField,
+  Button,
+  Typography,
   Alert,
   InputAdornment,
-  Paper
+  useTheme,
+  useMediaQuery
 } from '@mui/material';
-import { Person as PersonIcon, Lock as LockIcon } from '@mui/icons-material';
+import {
+  Person as PersonIcon,
+  Lock as LockIcon
+} from '@mui/icons-material';
 import BaseLayout from './layout/BaseLayout';
 
 const Login = () => {
@@ -18,6 +23,10 @@ const Login = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  
+  // Responsive breakpoints
+  const theme = useTheme();
+  const isXs = useMediaQuery(theme.breakpoints.only('xs'));
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -86,100 +95,109 @@ const Login = () => {
   };
 
   return (
-    <BaseLayout>
-      <Box 
-        display="flex" 
-        flexGrow={1} 
-        alignItems="center" 
-        justifyContent="center"
+    <BaseLayout centered hideMenu>
+      <Paper
+        elevation={3}
+        sx={{
+          p: { xs: 2, sm: 3, md: 4 },
+          width: '100%',
+          maxWidth: '400px',
+          mx: 'auto'
+        }}
       >
-        <Box width="100%" maxWidth={400} mx={2}>
-          <Paper elevation={3} sx={{ p: 4, borderRadius: 2 }}>
-            <Box textAlign="center" mb={3}>
-              <Typography variant="h5" component="h2" gutterBottom>
-                Inloggen
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Log in op het Facilitaire Bedrijven platform
-              </Typography>
-            </Box>
-
-            {error && (
-              <Alert severity="error" sx={{ mb: 3 }}>
-                {error}
-              </Alert>
-            )}
-
-            <Box component="form" onSubmit={handleLogin} sx={{ mt: 1 }}>
-              <TextField
-                margin="normal"
-                required
-                fullWidth
-                id="username"
-                label="Gebruikersnaam"
-                name="username"
-                autoComplete="username"
-                autoFocus
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                InputProps={{
-                  startAdornment: (
-                    <InputAdornment position="start">
-                      <PersonIcon />
-                    </InputAdornment>
-                  ),
-                }}
-              />
-              <TextField
-                margin="normal"
-                required
-                fullWidth
-                name="password"
-                label="Wachtwoord"
-                type="password"
-                id="password"
-                autoComplete="current-password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                InputProps={{
-                  startAdornment: (
-                    <InputAdornment position="start">
-                      <LockIcon />
-                    </InputAdornment>
-                  ),
-                }}
-              />
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                disabled={loading}
-                sx={{ mt: 3, mb: 2 }}
-              >
-                {loading ? (
-                  <Box display="flex" alignItems="center">
-                    <Box component="span" sx={{ mr: 1 }}>
-                      Inloggen...
-                    </Box>
-                  </Box>
-                ) : (
-                  'Inloggen'
-                )}
-              </Button>
-
-              <Box textAlign="center" mt={2}>
-                <Typography 
-                  variant="body2" 
-                  color="primary" 
-                  sx={{ cursor: 'pointer' }}
-                >
-                  Wachtwoord vergeten?
-                </Typography>
-              </Box>
-            </Box>
-          </Paper>
+        <Box sx={{ textAlign: 'center', mb: { xs: 2, sm: 3 } }}>
+          <Typography 
+            variant={isXs ? "h6" : "h5"} 
+            component="h1" 
+            gutterBottom
+          >
+            Inloggen
+          </Typography>
+          <Typography 
+            variant="body2" 
+            color="text.secondary"
+          >
+            Log in op het Facilitaire Bedrijven platform
+          </Typography>
         </Box>
-      </Box>
+
+        {error && (
+          <Alert severity="error" sx={{ mb: { xs: 2, sm: 3 } }}>
+            {error}
+          </Alert>
+        )}
+
+        <Box component="form" onSubmit={handleLogin}>
+          <TextField
+            margin="normal"
+            required
+            fullWidth
+            id="username"
+            label="Gebruikersnaam"
+            name="username"
+            autoComplete="username"
+            autoFocus
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <PersonIcon color="action" />
+                </InputAdornment>
+              ),
+            }}
+            size={isXs ? "small" : "medium"}
+          />
+          <TextField
+            margin="normal"
+            required
+            fullWidth
+            name="password"
+            label="Wachtwoord"
+            type="password"
+            id="password"
+            autoComplete="current-password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <LockIcon color="action" />
+                </InputAdornment>
+              ),
+            }}
+            size={isXs ? "small" : "medium"}
+          />
+          <Button
+            type="submit"
+            fullWidth
+            variant="contained"
+            disabled={loading}
+            sx={{ 
+              mt: { xs: 2, sm: 3 },
+              mb: { xs: 1, sm: 2 },
+              py: { xs: 1, sm: 1.5 }
+            }}
+          >
+            {loading ? 'Inloggen...' : 'Inloggen'}
+          </Button>
+
+          <Box sx={{ textAlign: 'center' }}>
+            <Typography
+              variant="body2"
+              color="primary"
+              sx={{
+                cursor: 'pointer',
+                '&:hover': {
+                  textDecoration: 'underline'
+                }
+              }}
+            >
+              Wachtwoord vergeten?
+            </Typography>
+          </Box>
+        </Box>
+      </Paper>
     </BaseLayout>
   );
 };
