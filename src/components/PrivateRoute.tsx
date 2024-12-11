@@ -13,8 +13,9 @@ const PrivateRoute = ({ children, allowedRoles = [] }: PrivateRouteProps) => {
     return <Navigate to="/login" />;
   }
 
-  if (allowedRoles.length > 0 && userRole && !allowedRoles.includes(userRole)) {
-    return <Navigate to="/unauthorized" />;
+  if (allowedRoles.length > 0 && (!userRole || !allowedRoles.includes(userRole))) {
+    const defaultRoute = userRole === 'provider' ? '/provider-dashboard' : '/klant-dashboard';
+    return <Navigate to={defaultRoute} />;
   }
 
   return <>{children}</>;

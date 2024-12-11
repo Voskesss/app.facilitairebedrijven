@@ -55,14 +55,16 @@ const Login = () => {
         });
         
         const userData = await userResponse.json();
-        const userRoles = userData.roles || [];
+        console.log('User data:', userData);
         
-        if (userRoles.includes('administrator') || userRoles.includes('opdrachtgever')) {
-          login(data.token, 'opdrachtgever');
-          navigate('/opdrachtgever-dashboard');
-        } else if (userRoles.includes('aanbieder')) {
-          login(data.token, 'aanbieder');
-          navigate('/aanbieder-dashboard');
+        // Check WordPress rol en map naar onze interne rollen
+        const wpRole = userData.roles[0]; // Neem de eerste rol
+        if (wpRole === 'Customer') {
+          login(data.token, 'klant');
+          navigate('/klant-dashboard');
+        } else if (wpRole === 'Provider') {
+          login(data.token, 'provider');
+          navigate('/provider-dashboard');
         } else {
           setError('Je account heeft niet de juiste rechten');
         }

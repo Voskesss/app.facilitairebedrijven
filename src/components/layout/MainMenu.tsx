@@ -46,37 +46,42 @@ const MainMenu = () => {
     setAnchorEl(null);
   };
 
+  const handleLogout = () => {
+    handleProfileClose(); // Sluit het menu
+    logout(); // Gebruik de logout functie van AuthContext
+  };
+
   // Menu items op basis van rol
   const menuItems = [
     {
       text: 'Dashboard',
       icon: <DashboardIcon />,
       path: `/${userRole}-dashboard`,
-      roles: ['opdrachtgever', 'aanbieder']
+      roles: ['klant', 'provider']
     },
     {
       text: 'Opdrachten',
       icon: <AssignmentIcon />,
       path: '/opdrachten',
-      roles: ['opdrachtgever', 'aanbieder']
+      roles: ['klant', 'provider']
     },
     {
       text: 'Bedrijfsprofiel',
       icon: <BusinessIcon />,
       path: '/bedrijfsprofiel',
-      roles: ['aanbieder']
+      roles: ['provider']
     },
     {
       text: 'Aanbieders',
       icon: <PeopleIcon />,
       path: '/aanbieders',
-      roles: ['opdrachtgever']
+      roles: ['klant']
     },
     {
       text: 'Instellingen',
       icon: <SettingsIcon />,
       path: '/instellingen',
-      roles: ['opdrachtgever', 'aanbieder']
+      roles: ['klant', 'provider']
     }
   ];
 
@@ -133,7 +138,7 @@ const MainMenu = () => {
             onClose={handleProfileClose}
           >
             <MenuItem onClick={() => navigate('/profiel')}>Profiel</MenuItem>
-            <MenuItem onClick={logout}>Uitloggen</MenuItem>
+            <MenuItem onClick={handleLogout}>Uitloggen</MenuItem>
           </Menu>
         </Toolbar>
       </AppBar>

@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 interface AuthContextType {
@@ -11,20 +11,9 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [userRole, setUserRole] = useState<string | null>(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem('wp_token'));
+  const [userRole, setUserRole] = useState<string | null>(localStorage.getItem('user_role'));
   const navigate = useNavigate();
-
-  useEffect(() => {
-    // Check bij laden van de app of er een token is
-    const token = localStorage.getItem('wp_token');
-    const role = localStorage.getItem('user_role');
-    
-    if (token && role) {
-      setIsAuthenticated(true);
-      setUserRole(role);
-    }
-  }, []);
 
   const login = (token: string, role: string) => {
     localStorage.setItem('wp_token', token);

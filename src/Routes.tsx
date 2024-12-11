@@ -1,17 +1,17 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useAuth } from './contexts/AuthContext';
 import Login from './components/Login';
-import OpdrachtgeverDashboard from './components/OpdrachtgeverDashboard';
-import AanbiederDashboard from './components/AanbiederDashboard';
+import Profile from './components/Profile';
+import KlantDashboard from './components/KlantDashboard';
+import ProviderDashboard from './components/ProviderDashboard';
 import PrivateRoute from './components/PrivateRoute';
 
 const AppRoutes = () => {
   const { isAuthenticated, userRole } = useAuth();
 
-  // Redirect naar juiste dashboard als al ingelogd
   const getDefaultRoute = () => {
     if (!isAuthenticated) return '/login';
-    return userRole === 'aanbieder' ? '/aanbieder-dashboard' : '/opdrachtgever-dashboard';
+    return userRole === 'provider' ? '/provider-dashboard' : '/klant-dashboard';
   };
 
   return (
@@ -25,18 +25,26 @@ const AppRoutes = () => {
         element={<Navigate to={getDefaultRoute()} />}
       />
       <Route
-        path="/opdrachtgever-dashboard"
+        path="/profiel"
         element={
-          <PrivateRoute allowedRoles={['opdrachtgever', 'administrator']}>
-            <OpdrachtgeverDashboard />
+          <PrivateRoute>
+            <Profile />
           </PrivateRoute>
         }
       />
       <Route
-        path="/aanbieder-dashboard"
+        path="/klant-dashboard"
         element={
-          <PrivateRoute allowedRoles={['aanbieder']}>
-            <AanbiederDashboard />
+          <PrivateRoute allowedRoles={['klant']}>
+            <KlantDashboard />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/provider-dashboard"
+        element={
+          <PrivateRoute allowedRoles={['provider']}>
+            <ProviderDashboard />
           </PrivateRoute>
         }
       />
