@@ -16,6 +16,7 @@ import {
   Lock as LockIcon
 } from '@mui/icons-material';
 import BaseLayout from './layout/BaseLayout';
+import { useAuth } from '../contexts/AuthContext';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -23,6 +24,7 @@ const Login = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  const { login } = useAuth();
   
   // Responsive breakpoints
   const theme = useTheme();
@@ -39,55 +41,35 @@ const Login = () => {
         return;
       }
 
-      console.log('Attempting login with:', { username, hasPassword: !!password });
-      
       const response = await fetch('/wp-json/jwt-auth/v1/token', {
         method: 'POST',
-        headers: { 
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          username,
-          password
-        }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password }),
       });
 
       const data = await response.json();
-      console.log('Login response:', data);
 
       if (data.token) {
-        // Haal gebruikersdata op met capabilities
         const userResponse = await fetch('/wp-json/wp/v2/users/me?context=edit', {
-          headers: { 
-            'Authorization': `Bearer ${data.token}`
-          },
+          headers: { 'Authorization': `Bearer ${data.token}` },
         });
         
         const userData = await userResponse.json();
-        console.log('User data:', userData);
-        
-        // Check roles in plaats van capabilities
         const userRoles = userData.roles || [];
-        console.log('User roles:', userRoles);
-        
-        localStorage.setItem('wp_token', data.token);
         
         if (userRoles.includes('administrator') || userRoles.includes('opdrachtgever')) {
-          localStorage.setItem('user_role', 'opdrachtgever');
+          login(data.token, 'opdrachtgever');
           navigate('/opdrachtgever-dashboard');
         } else if (userRoles.includes('aanbieder')) {
-          localStorage.setItem('user_role', 'aanbieder');
+          login(data.token, 'aanbieder');
           navigate('/aanbieder-dashboard');
         } else {
-          console.error('Geen juiste rollen gevonden:', userRoles);
           setError('Je account heeft niet de juiste rechten');
         }
       } else {
-        console.log('Login failed:', data);
         setError(data.message || 'Ongeldige inloggegevens');
       }
     } catch (err) {
-      console.error('Login error:', err);
       setError('Er ging iets mis bij het inloggen');
     } finally {
       setLoading(false);
