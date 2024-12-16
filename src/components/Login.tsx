@@ -1,15 +1,12 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
-  Box,
   Paper,
   TextField,
   Button,
   Typography,
   Alert,
-  InputAdornment,
-  useTheme,
-  useMediaQuery
+  InputAdornment
 } from '@mui/material';
 import {
   Person as PersonIcon,
@@ -17,6 +14,7 @@ import {
 } from '@mui/icons-material';
 import BaseLayout from './layout/BaseLayout';
 import { useAuth } from '../contexts/AuthContext';
+import { loginUser } from '../api/auth';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -25,10 +23,6 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const { login } = useAuth();
-  
-  // Responsive breakpoints
-  const theme = useTheme();
-  const isXs = useMediaQuery(theme.breakpoints.only('xs'));
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -41,38 +35,27 @@ const Login = () => {
         return;
       }
 
-      const response = await fetch('/wp-json/jwt-auth/v1/token', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, password }),
-      });
-
-      const data = await response.json();
-
-      if (data.token) {
-        const userResponse = await fetch('/wp-json/wp/v2/users/me?context=edit', {
-          headers: { 'Authorization': `Bearer ${data.token}` },
-        });
-        
-        const userData = await userResponse.json();
-        console.log('User data:', userData);
-        
-        // Check WordPress rol en map naar onze interne rollen
-        const wpRole = userData.roles[0]; // Neem de eerste rol
-        if (wpRole === 'Customer') {
-          login(data.token, 'klant');
-          navigate('/klant-dashboard');
-        } else if (wpRole === 'Provider') {
-          login(data.token, 'provider');
-          navigate('/provider-dashboard');
-        } else {
-          setError('Je account heeft niet de juiste rechten');
-        }
-      } else {
-        setError(data.message || 'Ongeldige inloggegevens');
+      const data = await loginUser(username, password);
+      console.log('Login response:', data); // Debug log
+      
+      if (!data.token || !data.user?.role) {
+        console.error('Invalid server response:', data);
+        setError('Ongeldige response van server');
+        return;
       }
+
+      // Login succesvol, sla token op en navigeer naar juiste dashboard
+      login(data.token, data.user.role);
+      
+      const dashboardPath = data.user.role === 'provider' ? '/provider-dashboard' : '/klant-dashboard';
+      console.log('Navigating to:', dashboardPath); // Debug log
+      navigate(dashboardPath);
     } catch (err) {
-      setError('Er ging iets mis bij het inloggen');
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('Er ging iets mis bij het inloggen');
+      }
     } finally {
       setLoading(false);
     }
@@ -89,101 +72,64 @@ const Login = () => {
           mx: 'auto'
         }}
       >
-        <Box sx={{ textAlign: 'center', mb: { xs: 2, sm: 3 } }}>
-          <Typography 
-            variant={isXs ? "h6" : "h5"} 
-            component="h1" 
-            gutterBottom
-          >
-            Inloggen
-          </Typography>
-          <Typography 
-            variant="body2" 
-            color="text.secondary"
-          >
-            Log in op het Facilitaire Bedrijven platform
-          </Typography>
-        </Box>
+        <Typography variant="h5" component="h1" gutterBottom align="center">
+          Inloggen
+        </Typography>
 
         {error && (
-          <Alert severity="error" sx={{ mb: { xs: 2, sm: 3 } }}>
+          <Alert severity="error" sx={{ mb: 2 }}>
             {error}
           </Alert>
         )}
 
-        <Box component="form" onSubmit={handleLogin}>
+        <form onSubmit={handleLogin}>
           <TextField
-            margin="normal"
-            required
             fullWidth
-            id="username"
             label="Gebruikersnaam"
-            name="username"
-            autoComplete="username"
-            autoFocus
+            variant="outlined"
+            margin="normal"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
-                  <PersonIcon color="action" />
+                  <PersonIcon />
                 </InputAdornment>
               ),
             }}
-            size={isXs ? "small" : "medium"}
           />
+          
           <TextField
-            margin="normal"
-            required
             fullWidth
-            name="password"
             label="Wachtwoord"
             type="password"
-            id="password"
-            autoComplete="current-password"
+            variant="outlined"
+            margin="normal"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
-                  <LockIcon color="action" />
+                  <LockIcon />
                 </InputAdornment>
               ),
             }}
-            size={isXs ? "small" : "medium"}
           />
+
           <Button
             type="submit"
             fullWidth
             variant="contained"
+            size="large"
             disabled={loading}
-            sx={{ 
-              mt: { xs: 2, sm: 3 },
-              mb: { xs: 1, sm: 2 },
-              py: { xs: 1, sm: 1.5 }
-            }}
+            sx={{ mt: 3 }}
           >
-            {loading ? 'Inloggen...' : 'Inloggen'}
+            {loading ? 'Bezig met inloggen...' : 'Inloggen'}
           </Button>
-
-          <Box sx={{ textAlign: 'center' }}>
-            <Typography
-              variant="body2"
-              color="primary"
-              sx={{
-                cursor: 'pointer',
-                '&:hover': {
-                  textDecoration: 'underline'
-                }
-              }}
-            >
-              Wachtwoord vergeten?
-            </Typography>
-          </Box>
-        </Box>
+        </form>
       </Paper>
     </BaseLayout>
   );
 };
 
-export default Login; 
+export default Login;

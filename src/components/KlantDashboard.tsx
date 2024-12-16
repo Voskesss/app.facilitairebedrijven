@@ -22,27 +22,26 @@ const KlantDashboard = () => {
           return;
         }
 
-        const userData = await fetchWithAuth('/wp-json/wp/v2/users/me?context=edit');
+        // Gebruik onze backend endpoint in plaats van direct WordPress
+        const userData = await fetchWithAuth('/api/auth/me');
         console.log('User data:', userData);
         
-        if (!userData || !userData.roles || !Array.isArray(userData.roles)) {
+        if (!userData || !userData.role) {
           console.error('Ongeldige gebruikersdata:', userData);
           setError('Er ging iets mis bij het laden van de gebruikersgegevens');
           return;
         }
 
-        const hasValidRole = userData.roles.some((role: string) => 
-          role.toLowerCase() === 'customer' || 
-          role.toLowerCase() === 'klant'
-        );
-
-        if (!hasValidRole) {
+        if (userData.role !== 'klant') {
           setError('Geen toegang tot deze pagina');
           logout();
         }
       } catch (err) {
         console.error('Dashboard toegang error:', err);
         setError('Er ging iets mis bij het laden van het dashboard');
+        if (err instanceof Error && err.message === 'Sessie verlopen') {
+          logout();
+        }
       } finally {
         setLoading(false);
       }
@@ -69,18 +68,56 @@ const KlantDashboard = () => {
 
   return (
     <BaseLayout>
-      <Paper sx={{ p: 3 }}>
-        <Typography variant="h5" gutterBottom>
+      <Box sx={{ mb: 3 }}>
+        <Typography variant="h4" gutterBottom>
           Klant Dashboard
         </Typography>
-        <Box>
-          <Typography>
-            Welkom op je dashboard
+        <Typography variant="subtitle1" color="text.secondary">
+          Welkom terug! Hier vind je een overzicht van je activiteiten.
+        </Typography>
+      </Box>
+
+      <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: { xs: '1fr', md: 'repeat(2, 1fr)' } }}>
+        <Paper sx={{ p: 3 }}>
+          <Typography variant="h6" gutterBottom>
+            Recente Opdrachten
           </Typography>
-        </Box>
-      </Paper>
+          <Typography>
+            Je hebt nog geen opdrachten geplaatst.
+          </Typography>
+        </Paper>
+
+        <Paper sx={{ p: 3 }}>
+          <Typography variant="h6" gutterBottom>
+            Aanbieders
+          </Typography>
+          <Typography>
+            Bekijk hier de beschikbare aanbieders.
+          </Typography>
+        </Paper>
+
+        <Paper sx={{ p: 3 }}>
+          <Typography variant="h6" gutterBottom>
+            Meldingen
+          </Typography>
+          <Typography>
+            Je hebt geen nieuwe meldingen.
+          </Typography>
+        </Paper>
+
+        <Paper sx={{ p: 3 }}>
+          <Typography variant="h6" gutterBottom>
+            Snelle Links
+          </Typography>
+          <Typography>
+            • Nieuwe opdracht plaatsen
+            • Aanbieders zoeken
+            • Instellingen wijzigen
+          </Typography>
+        </Paper>
+      </Box>
     </BaseLayout>
   );
 };
 
-export default KlantDashboard; 
+export default KlantDashboard;

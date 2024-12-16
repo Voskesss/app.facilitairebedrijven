@@ -14,7 +14,8 @@ import {
   ListItemIcon,
   ListItemText,
   ListItemButton,
-  Divider
+  Divider,
+  Typography
 } from '@mui/material';
 import {
   Menu as MenuIcon,
@@ -24,15 +25,15 @@ import {
   Assignment as AssignmentIcon,
   Business as BusinessIcon,
   People as PeopleIcon,
-  Settings as SettingsIcon
+  Settings as SettingsIcon,
+  ExitToApp as LogoutIcon
 } from '@mui/icons-material';
 
 const MainMenu = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const navigate = useNavigate();
-  const { logout } = useAuth();
-  const userRole = localStorage.getItem('user_role');
+  const { logout, userRole } = useAuth();
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -47,8 +48,9 @@ const MainMenu = () => {
   };
 
   const handleLogout = () => {
-    handleProfileClose(); // Sluit het menu
-    logout(); // Gebruik de logout functie van AuthContext
+    handleProfileClose();
+    logout();
+    navigate('/login');
   };
 
   // Menu items op basis van rol
@@ -112,51 +114,103 @@ const MainMenu = () => {
 
   return (
     <>
-      <AppBar position="fixed">
+      <AppBar 
+        position="fixed" 
+        sx={{ 
+          zIndex: (theme) => theme.zIndex.drawer + 1,
+          bgcolor: 'background.paper',
+          color: 'text.primary'
+        }}
+      >
         <Toolbar>
           <IconButton
             color="inherit"
+            aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2 }}
+            sx={{ mr: 2, display: { sm: 'none' } }}
           >
             <MenuIcon />
           </IconButton>
+
+          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+            <img
+              src="/fb-logo.png"
+              alt="Facilitaire Bedrijven"
+              style={{ height: 32 }}
+            />
+          </Box>
+
           <Box sx={{ flexGrow: 1 }} />
-          <IconButton color="inherit">
-            <NotificationsIcon />
-          </IconButton>
-          <IconButton
-            onClick={handleProfileMenu}
-            color="inherit"
-          >
-            <AccountCircleIcon />
-          </IconButton>
+
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <IconButton color="inherit">
+              <NotificationsIcon />
+            </IconButton>
+            
+            <IconButton
+              onClick={handleProfileMenu}
+              color="inherit"
+            >
+              <AccountCircleIcon />
+            </IconButton>
+          </Box>
+
           <Menu
             anchorEl={anchorEl}
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+            keepMounted
+            transformOrigin={{
+              vertical: 'top',
+              horizontal: 'right',
+            }}
             open={Boolean(anchorEl)}
             onClose={handleProfileClose}
           >
-            <MenuItem onClick={() => navigate('/profiel')}>Profiel</MenuItem>
-            <MenuItem onClick={handleLogout}>Uitloggen</MenuItem>
+            <MenuItem onClick={handleLogout}>
+              <ListItemIcon>
+                <LogoutIcon fontSize="small" />
+              </ListItemIcon>
+              <Typography variant="inherit">Uitloggen</Typography>
+            </MenuItem>
           </Menu>
         </Toolbar>
       </AppBar>
-      <Drawer
-        variant="temporary"
-        open={mobileOpen}
-        onClose={handleDrawerToggle}
-        sx={{
-          '& .MuiDrawer-paper': { 
-            width: 240,
-            boxSizing: 'border-box' 
-          },
-        }}
+
+      <Box
+        component="nav"
+        sx={{ width: { sm: 240 }, flexShrink: { sm: 0 } }}
       >
-        {drawer}
-      </Drawer>
+        <Drawer
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true, // Better open performance on mobile.
+          }}
+          sx={{
+            display: { xs: 'block', sm: 'none' },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: 240 },
+          }}
+        >
+          {drawer}
+        </Drawer>
+        <Drawer
+          variant="permanent"
+          sx={{
+            display: { xs: 'none', sm: 'block' },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: 240 },
+          }}
+          open
+        >
+          {drawer}
+        </Drawer>
+      </Box>
     </>
   );
 };
 
-export default MainMenu; 
+export default MainMenu;
