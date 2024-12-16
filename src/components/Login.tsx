@@ -6,7 +6,8 @@ import {
   Button,
   Typography,
   Alert,
-  InputAdornment
+  InputAdornment,
+  Box
 } from '@mui/material';
 import {
   Person as PersonIcon,
@@ -62,27 +63,41 @@ const Login = () => {
   };
 
   return (
-    <BaseLayout centered hideMenu>
-      <Paper
-        elevation={3}
-        sx={{
-          p: { xs: 2, sm: 3, md: 4 },
+    <BaseLayout hideMenu centered>
+      <Paper 
+        elevation={3} 
+        sx={{ 
+          p: 4, 
           width: '100%',
           maxWidth: '400px',
-          mx: 'auto'
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center'
         }}
       >
-        <Typography variant="h5" component="h1" gutterBottom align="center">
-          Inloggen
-        </Typography>
+        <Box sx={{ mb: 4, textAlign: 'center' }}>
+          <img
+            src="/logo-2022-nieuw.png"
+            alt="Facilitaire Bedrijven"
+            style={{ 
+              height: 60,
+              width: 'auto',
+              objectFit: 'contain',
+              marginBottom: '16px'
+            }}
+          />
+          <Typography variant="h5" component="h1" gutterBottom>
+            Inloggen
+          </Typography>
+        </Box>
 
         {error && (
-          <Alert severity="error" sx={{ mb: 2 }}>
+          <Alert severity="error" sx={{ mb: 2, width: '100%' }}>
             {error}
           </Alert>
         )}
 
-        <form onSubmit={handleLogin}>
+        <form onSubmit={handleLogin} style={{ width: '100%' }}>
           <TextField
             fullWidth
             label="Gebruikersnaam"

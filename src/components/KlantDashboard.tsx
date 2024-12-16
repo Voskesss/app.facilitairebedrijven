@@ -14,7 +14,10 @@ const KlantDashboard = () => {
   useEffect(() => {
     const checkAccess = async () => {
       try {
+        console.log('Current userRole:', userRole); // Debug log
+        
         if (userRole !== 'klant') {
+          console.log('Access denied: incorrect role'); // Debug log
           setError('Geen toegang tot deze pagina');
           setTimeout(() => {
             navigate('/');
@@ -22,22 +25,23 @@ const KlantDashboard = () => {
           return;
         }
 
-        // Gebruik onze backend endpoint in plaats van direct WordPress
+        // Gebruik onze backend endpoint
         const userData = await fetchWithAuth('/api/auth/me');
-        console.log('User data:', userData);
+        console.log('User data from API:', userData); // Debug log
         
         if (!userData || !userData.role) {
-          console.error('Ongeldige gebruikersdata:', userData);
+          console.error('Invalid user data:', userData); // Debug log
           setError('Er ging iets mis bij het laden van de gebruikersgegevens');
           return;
         }
 
         if (userData.role !== 'klant') {
+          console.log('Access denied: API role mismatch'); // Debug log
           setError('Geen toegang tot deze pagina');
           logout();
         }
       } catch (err) {
-        console.error('Dashboard toegang error:', err);
+        console.error('Dashboard access error:', err); // Debug log
         setError('Er ging iets mis bij het laden van het dashboard');
         if (err instanceof Error && err.message === 'Sessie verlopen') {
           logout();
@@ -53,7 +57,9 @@ const KlantDashboard = () => {
   if (loading) {
     return (
       <BaseLayout>
-        <Typography>Laden...</Typography>
+        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '200px' }}>
+          <Typography>Laden...</Typography>
+        </Box>
       </BaseLayout>
     );
   }
@@ -109,10 +115,12 @@ const KlantDashboard = () => {
           <Typography variant="h6" gutterBottom>
             Snelle Links
           </Typography>
-          <Typography>
-            • Nieuwe opdracht plaatsen
-            • Aanbieders zoeken
-            • Instellingen wijzigen
+          <Typography component="div">
+            <Box component="ul" sx={{ pl: 2, m: 0 }}>
+              <li>Nieuwe opdracht plaatsen</li>
+              <li>Aanbieders zoeken</li>
+              <li>Instellingen wijzigen</li>
+            </Box>
           </Typography>
         </Paper>
       </Box>

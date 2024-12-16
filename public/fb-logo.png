@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+<head>
+	<script data-ad-client="pub-5989880712421995" async src="https://pagead2.googlesyndication.com/
+pagead/js/adsbygoogle.js"></script>
+	
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<!--[if IE 7 ]>  <html class="isie ie7 oldie no-js" lang="nl-NL"> <![endif]-->
+<!--[if IE 8 ]>  <html class="isie ie8 oldie no-js" lang="nl-NL"> <![endif]-->
+<!--[if IE 9 ]>  <html class="isie ie9 no-js" lang="nl-NL"> <![endif]-->
+<!-- Favicons Icon -->
+<meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+                                    
+            
+	<!-- This site is optimized with the Yoast SEO plugin v24.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Pagina niet gevonden - Facilitaire Bedrijven in Nederland</title>
+	<meta property="og:locale" content="nl_NL" />
+	<meta property="og:title" content="Pagina niet gevonden - Facilitaire Bedrijven in Nederland" />
+	<meta property="og:site_name" content="Facilitaire Bedrijven in Nederland" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.facilitairebedrijven.nl/#website","url":"https://www.facilitairebedrijven.nl/","name":"Facilitaire Bedrijven in Nederland","description":"Dé facilitaire dienstverleners van Nederland","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.facilitairebedrijven.nl/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"nl-NL"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Facilitaire Bedrijven in Nederland &raquo; feed" href="https://www.facilitairebedrijven.nl/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Facilitaire Bedrijven in Nederland &raquo; reactiesfeed" href="https://www.facilitairebedrijven.nl/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.facilitairebedrijven.nl\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='wgs2-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/wp-google-search/wgs2.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs3-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/wp-google-search/wgs3.css?ver=6.7.1' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.facilitairebedrijven.nl/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--dark-blue: #1767ef;--wp--preset--color--light-gray: #eee;--wp--preset--color--dark-gray: #444;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-ai-content-generator-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/gpt3-ai-content-generator/public/css/wp-ai-content-generator-public.css?ver=1.8.95' type='text/css' media='all' />
+<link rel='stylesheet' id='service_finder-booking-compress-cache-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/inc/caches/7967149ad7e8b3106f530d842ff0c7bd.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrapValidator-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/validator/bootstrapValidator.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.4.3' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.4.3' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wsl-widget-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='job-alerts-frontend-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/wp-job-manager-alerts/assets/css/frontend.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-job-manager-job-listings-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/wp-job-manager/assets/dist/css/job-listings.css?ver=598383a28ac5f9f156e4' type='text/css' media='all' />
+<link rel='stylesheet' id='extendify-utility-styles-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/extendify/public/build/utility-minimum.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/style.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/css/fontawesome/css/font-awesome.css' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css' href='https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/css/simple-line-icons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='service_finder-curves-css' href='https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/css/curves.css' type='text/css' media='all' />
+<link rel='stylesheet' id='service_finder-compress-cache-css' href='https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/caches/937d877921ef5034f18601a94ca27864.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C100%2C200%2C500%2C600%2C700%2C800%2C900%7CRoboto%3A400%2C100%2C300%2C300italic%2C400italic%2C500%2C500italic%2C700%2C700italic%2C900italic%2C900%7COpen+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C800italic%2C800%2C700italic%7CPoppins%3A300%2C400%2C500%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-raty-style-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/comments-ratings/css/jquery.raty.css?ver=1.1.6' type='text/css' media='' />
+<link rel='stylesheet' id='bsf-Defaults-css' href='https://www.facilitairebedrijven.nl/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=3.19.13' type='text/css' media='all' />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Varela%20Round:400&#038;display=swap&#038;ver=1732527993" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela%20Round:400&#038;display=swap&#038;ver=1732527993" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela%20Round:400&#038;display=swap&#038;ver=1732527993" /></noscript><script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/gpt3-ai-content-generator/public/js/wp-ai-content-generator-public.js?ver=1.8.95" id="wp-ai-content-generator-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-includes/js/plupload/moxie.min.js?ver=1.3.5" id="moxiejs-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.4.3" id="jquery-blockui-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Bekijk winkelwagen","cart_url":"https:\/\/www.facilitairebedrijven.nl\/winkelwagen\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=9.4.3" id="wc-add-to-cart-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.4.3" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.4.3" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=8.0.1" id="vc_woocommerce-add-to-cart-js-js"></script>
+<script></script>
+
+
+		<script type="text/javascript">
+
+
+
+		// <![CDATA[
+
+
+
+		var param = '';
+
+
+
+		var ajaxurl = '';
+
+
+
+		var scheduleurl = '';
+
+
+
+		var caltmpls = '';
+
+
+
+		var customerscheduleurl = '';
+
+
+
+		var myaccount = '';
+
+
+
+		var datavalidate = '';
+
+
+
+		var captchavalidate = '';
+
+
+
+		var captchavalidatepage = '';
+
+
+
+		var captchaquotevalidate = '';
+
+
+
+		var countrycount = '';
+
+
+
+		var allcountry = '';
+
+
+
+		var allowedcountry = '';
+
+
+
+		var allowedcountries = '';
+
+
+
+		var showallowedcountries = '';
+
+
+
+		var currencysymbol = '';
+
+
+
+		var showaddressinfo = '';
+
+
+
+		var showpostaladdress = '';
+
+
+
+		var accessaddressinfo = '';
+
+
+
+		var tokenRequestUrl = '';
+
+
+
+		var availabilitytab;
+
+
+
+		var busihours;
+
+
+
+		var themestyle;
+
+
+
+		var radiusfillcolor;
+
+
+
+		var radiusbordercolor;
+
+
+
+		var radiusfillcoloropacity;
+
+
+
+		var radiusbordercoloropacity;
+
+
+
+		var radiusborderthickness;
+
+
+
+		var woopayment;
+
+
+
+		var cart_url;
+
+
+
+		var chkwoopayment;
+
+
+
+		var userrole;
+
+
+
+		var dateformat;
+
+
+
+		var defaultcountry;
+
+
+
+		var defaultlat;
+
+
+
+		var defaultlng;
+
+
+
+		var defaultzoomlevel;
+
+
+
+		var hide_msg_seconds;
+
+
+
+		
+
+
+
+		ajaxurl = 'https://www.facilitairebedrijven.nl/wp-admin/admin-ajax.php';
+
+
+
+		chkwoopayment = '1';
+
+
+
+		if(chkwoopayment == 1){
+
+
+
+		woopayment = true;
+
+
+
+		}else{
+
+
+
+		woopayment = false;
+
+
+
+		}
+
+
+
+		langcode = 'nl';
+
+
+
+		imgpath = 'https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/images';
+
+
+
+		hide_msg_seconds = '120000';
+
+
+
+		cart_url = 'https://www.facilitairebedrijven.nl/winkelwagen/';
+
+
+
+		currencysymbol = '&euro;';
+
+
+
+		scheduleurl = 'https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/frontend/modules/schedule/schedule-data.php';
+
+
+
+		caltmpls = 'https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/assets/bootstrap-calendar/tmpls/';
+
+
+
+		customerscheduleurl = 'https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/frontend/modules/schedule/customer-schedule-data.php';
+
+
+
+		myaccount = 'https://www.facilitairebedrijven.nl/my-account/';
+
+
+
+		datavalidate = 'https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/frontend/modules/book-now/validate-data.php';
+
+
+
+		captchavalidate = 'https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/lib/validate-captcha.php';
+
+
+
+		captchavalidatepage = 'https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/lib/validate-captcha-page.php';
+
+
+
+		captchaquotevalidate = 'https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking/lib/validate-quote-captcha.php';
+
+
+
+		countrycount = '1';
+
+
+
+		allcountry = '';
+
+
+
+		showaddressinfo = '1';
+
+
+
+		showpostaladdress = '1';
+
+
+
+		accessaddressinfo = '1';
+
+
+
+		themestyle = 'style-2';
+
+
+
+		dateformat = 'yyyy-mm-dd';
+
+
+
+		defaultlat = '28.6430536';
+
+
+
+		defaultlng = '77.2223442';
+
+
+
+		defaultzoomlevel = '2';
+
+
+
+		defaultcountry = '';
+
+
+
+		radiusfillcolor = '#00A802';
+
+
+
+		radiusbordercolor = '#8224E3';
+
+
+
+		radiusfillcoloropacity = '0.3';
+
+
+
+		radiusbordercoloropacity = '0.8';
+
+
+
+		userrole = '';
+
+
+
+		
+
+
+
+		radiusborderthickness = '2';
+
+
+
+		if(!parseInt(allcountry)){
+
+
+
+			if(parseInt(countrycount) == 1){
+
+
+
+			allowedcountry = 'nl';
+
+
+
+			}else if(parseInt(countrycount) > 1){
+
+
+
+			allowedcountries = [];
+
+
+
+			showallowedcountries = '';
+
+
+
+			}
+
+
+
+		}	
+
+
+
+		// ]]>
+
+
+
+		</script>
+
+
+
+		<link rel="https://api.w.org/" href="https://www.facilitairebedrijven.nl/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.facilitairebedrijven.nl/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.1" />
+<meta name="generator" content="WooCommerce 9.4.3" />
+<meta name="generator" content="Redux 4.5.3" /><style>
+.default-hidden{ 
+	display:none;
+}
+</style>
+<script type='text/javascript'>
+				jQuery(document).ready(function($) {
+				var ult_smooth_speed = 480;
+				var ult_smooth_step = 80;
+				$('html').attr('data-ult_smooth_speed',ult_smooth_speed).attr('data-ult_smooth_step',ult_smooth_step);
+				});
+			</script>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.6.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style class='wp-fonts-local' type='text/css'>
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<link rel="icon" href="https://www.facilitairebedrijven.nl/wp-content/uploads/2021/12/cropped-favico-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.facilitairebedrijven.nl/wp-content/uploads/2021/12/cropped-favico-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.facilitairebedrijven.nl/wp-content/uploads/2021/12/cropped-favico-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.facilitairebedrijven.nl/wp-content/uploads/2021/12/cropped-favico-270x270.png" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			.header-style7.is-sticky .main-bar {
+    
+    height: 100px;
+}
+
+.header-style7.is-sticky .main-bar {
+    position: fixed;
+   height: 100px;
+    margin-top: 0;
+   
+}
+
+#header-part {
+    position: relative;
+    z-index: 99;
+    
+    height: 100px;
+    
+}
+
+@media only screen and (max-width: 991px)
+	.header-nav-left {
+		opacity: 1;
+}
+
+.geolocate {
+    position: absolute;
+    top: 12px;
+    right: 22px;
+    color: #f79468;
+}
+.sf-categories-label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #f39222;
+    z-index: 1;
+}
+.sf-overlay-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+}
+
+
+.sf-featured-provider {
+    padding: 2px 0;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0.568);
+    padding-left: 5px;
+}
+.sf-featured-address {
+    padding: 2px 0;
+    font-size: 14px;
+    color: #000000;
+     background-color: rgba(255, 255, 255, 0.568);
+}
+.sf-featured-sign {
+ position: absolute;
+right: -5px;
+top: 20px;
+z-index: 1;
+background-color: #62b815;
+padding: 3px 10px 2px;
+color: #fff;
+text-transform: uppercase;
+font-size: 12px;
+border-top-right-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+}
+
+.sf-featured-media {
+    position: relative;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+  
+  
+}
+.sf-featured-media {
+    
+    background-size: 75%;
+    padding-top: 5px;
+    background-position: center;
+    background-color: #ffffff;
+    color: #000000;
+  
+}
+
+
+.sf-featured-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 25px;
+    background-color: #ffffff5c;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.658) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+    height: 40%;
+    /*background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(190, 190, 190, 0.658) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+    height: 40%;*/
+}
+
+.sf-featured-item {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #201A1A;
+    font-size: 18px;
+    z-index: 1;
+}
+.sf-categories-girds  .sf-overlay-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+  
+}
+.about-info .sf-provider-des, .auther-pic-text, .comment-respond, .comments-area > .bg-white, .gallery-thums2 .item .sf-thum-bx, .gallery-thums2 .item .sf-thum-bx .overlay-bx, .gallery-thums2 .item .sf-thum-bx img, .job-manager-form, .mfp-iframe-scaler, .mfp-iframe-scaler iframe, .modal-content, .post-navigation, .profile-form-bx, .provider-details .provider-logo, .sf-categories-girds, .sf-featured-left .sf-featured-media, .sf-featured-left .sf-overlay-box, .sf-featured-listing, .sf-pricing-highlight, .sf-rouned-box, .side-bar, .sliderLarge .sf-thum-bx img, .thumbnail-slider, .sf-thum-active::after, .thumbnail-slider .sf-thum-bx img, div.RWMB-drag-drop, .sf-couponcode-popup {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.modal-content, .post-navigation, .profile-form-bx, .provider-details .provider-logo, .sf-categories-girds, .sf-featured-left .sf-featured-media, .sf-featured-left .sf-overlay-box, .sf-featured-listing, .sf-pricing-highlight, .sf-rouned-box, .side-bar, .sliderLarge .sf-thum-bx img, .thumbnail-slider, .sf-thum-active::after, .thumbnail-slider .sf-thum-bx img, div.RWMB-drag-drop, .sf-couponcode-popup {
+    border-radius: 10px;
+    -webkit-border-radius: 25px;
+}
+
+.menu-button a {
+    background-color: orange !important;
+    color: white !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 25px !important;
+    margin-left: 10px;
+}
+.menu-button a:hover {
+    background-color: #bed031 !important;
+    color: white !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 25px !important;
+    margin-left: 10px;
+}
+/* radius ook voor oranje bedijf aanmleden */
+.header-nav .nav > li > a {
+  border-radius: 5px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    
+}
+#content .wpb_alert p:last-child, #content .wpb_text_column :last-child, #content .wpb_text_column p:last-child, .wpb_alert p:last-child, .wpb_text_column :last-child, .wpb_text_column p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.h6, h6 {
+    font-size: 20px;
+}
+.text-claim-model {
+    font-size: 11px;
+    color: rgb(99, 98, 98);
+}
+
+body {
+    
+	font-family: "Varela Round";
+	font-size: 16px;
+
+}
+button.ubtn {
+  
+    border-radius: 5px;
+}
+.upb_row_bg {
+       border-radius: 5px;
+
+}
+.col-md-3 widget_nav_menu a {
+  color: rgb(7, 127, 207);
+}
+.col-md-3 widget_nav_menu a:active {
+  color: rgb(199, 203, 206);
+}
+.col-md-3 widget_nav_menu{
+    width: 25%;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding-top: 10px;
+   }
+.wit ul li, ol li {
+    padding: 0;
+    color: white;
+}
+.wit {
+    color: white;
+}
+
+
+.header-nav .nav {
+    float: left;
+}
+
+
+.homepage .vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    
+  
+}
+
+.wpb_wrapper .homepage {
+
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+.header-style3 .main-bar {
+    position: absolute;
+    background: white;
+}
+.squaregroen {
+    content: '.'; /* include the period character in the content for the pseudo-element */
+  display: inline-block; /* display the element as an inline block */
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+   line-height: 20px; /* set the line-height to the same size as the square element */
+  vertical-align: middle; /* vertically align the element with the middle */
+  text-align: top; /* center the text inside the element */
+ background-color: #c0d133;
+  color: #c0d133;*/
+  margin-left: 4px; /* add a left margin to separate the square from the text */
+  margin-right: 4px;
+}
+.squareoranje {
+    content: '.'; /* include the period character in the content for the pseudo-element */
+  display: inline-block; /* display the element as an inline block */
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+   line-height: 20px; /* set the line-height to the same size as the square element */
+  vertical-align: middle; /* vertically align the element with the middle */
+  text-align: top; /* center the text inside the element */
+  background-color: #f39122;
+  color: #f39122;
+margin-left: 4px; /* add a left margin to separate the square from the text */
+}
+
+  .squareblauw {
+    content: '.'; /* include the period character in the content for the pseudo-element */
+  display: inline-block; /* display the element as an inline block */
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+   line-height: 20px; /* set the line-height to the same size as the square element */
+  vertical-align: middle; /* vertically align the element with the middle */
+  text-align: top; /* center the text inside the element */
+  background-color: #10abe3;
+  color: #10abe3;
+  margin-left: 4px; /* add a left margin to separate the square from the text */
+  }
+.squarewit {
+    content: '.'; /* include the period character in the content for the pseudo-element */
+  display: inline-block; /* display the element as an inline block */
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+   line-height: 20px; /* set the line-height to the same size as the square element */
+  vertical-align: middle; /* vertically align the element with the middle */
+  text-align: top; /* center the text inside the element */
+  background-color: #ffffff;
+  color: #ffffff;
+  margin-left: 4px; /* add a left margin to separate the square from the text */
+  }
+
+
+
+
+		</style>
+			<!-- Fonts Plugin CSS - https://fontsplugin.com/ -->
+	<style>
+		/* Cached: December 16, 2024 at 4:27am */
+/* hebrew */
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfpcuPP9g.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfqMuPP9g.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfqcuPP9g.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfp8uP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+--font-base: Varela Round;
+--font-headings: Varela Round;
+--font-input: Varela Round;
+}
+body, #content, .entry-content, .post-content, .page-content, .post-excerpt, .entry-summary, .entry-excerpt, .widget-area, .widget, .sidebar, #sidebar, footer, .footer, #footer, .site-footer {
+font-family: "Varela Round";
+ }
+#site-title, .site-title, #site-title a, .site-title a, .entry-title, .entry-title a, h1, h2, h3, h4, h5, h6, .widget-title, .elementor-heading-title {
+font-family: "Varela Round";
+ }
+button, .button, input, select, textarea, .wp-block-button, .wp-block-button__link {
+font-family: "Varela Round";
+ }
+.menu, .page_item a, .menu-item a, .wp-block-navigation, .wp-block-navigation-item__content {
+font-family: "Varela Round";
+ }
+.entry-content, .entry-content p, .post-content, .page-content, .post-excerpt, .entry-summary, .entry-excerpt, .excerpt, .excerpt p, .type-post p, .type-page p, .wp-block-post-content, .wp-block-post-excerpt, .elementor, .elementor p {
+font-family: "Varela Round";
+ }
+.wp-block-post-title, .wp-block-post-title a, .entry-title, .entry-title a, .post-title, .post-title a, .page-title, .entry-content h1, #content h1, .type-post h1, .type-page h1, .elementor h1 {
+font-family: "Varela Round";
+ }
+.entry-content h2, .post-content h2, .page-content h2, #content h2, .type-post h2, .type-page h2, .elementor h2 {
+font-family: "Varela Round";
+ }
+.entry-content h3, .post-content h3, .page-content h3, #content h3, .type-post h3, .type-page h3, .elementor h3 {
+font-family: "Varela Round";
+ }
+.entry-content h4, .post-content h4, .page-content h4, #content h4, .type-post h4, .type-page h4, .elementor h4 {
+font-family: "Varela Round";
+ }
+.entry-content h5, .post-content h5, .page-content h5, #content h5, .type-post h5, .type-page h5, .elementor h5 {
+font-family: "Varela Round";
+ }
+.entry-content h6, .post-content h6, .page-content h6, #content h6, .type-post h6, .type-page h6, .elementor h6 {
+font-family: "Varela Round";
+ }
+.widget-title, .widget-area h1, .widget-area h2, .widget-area h3, .widget-area h4, .widget-area h5, .widget-area h6, #secondary h1, #secondary h2, #secondary h3, #secondary h4, #secondary h5, #secondary h6 {
+font-family: "Varela Round";
+ }
+.widget-area, .widget, .sidebar, #sidebar, #secondary {
+font-family: "Varela Round";
+ }
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6, #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+font-family: "Varela Round";
+ }
+footer, #footer, .footer, .site-footer {
+font-family: "Varela Round";
+ }
+	</style>
+	<!-- Fonts Plugin CSS -->
+	<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="error404 theme-service-finder cookies-not-set woocommerce-no-js header-fixed sf-ltr sf-blog-page-area service-finder-child wpb-js-composer js-comp-ver-8.0.1 vc_responsive">
+
+<div class="page-wraper">
+<!-- header -->
+
+<header id="header-part" class="mostion clearfix header-style1  sf-header-inner  left-nav-wrap">
+
+
+
+  
+  <!-- Display this section when no top bar selected -->
+
+  <div class="top-bar">
+
+    <div class="container">
+
+      <div class="row">
+
+      
+        <div class="col-md-12 col-sm-12  col-xs-12">
+
+          <ul class="login-bx  list-inline fs-customer-status">
+
+            
+            
+            <li><i class="fa fa-user"></i><a href="javascript:void(0);" data-action="login" data-redirect="yes" data-toggle="modal" data-target="#login-Modal">
+
+              Login
+              </a></li>
+
+            <li><i class="fa fa-plus"></i><a href="javascript:void(0);" data-action="signup" data-redirect="yes" data-toggle="modal" data-target="#login-Modal">
+
+              Sign up
+              </a></li>
+
+              
+
+            
+          </ul>
+
+          
+          <ul class="social-bx list-inline">
+
+             
+
+			 
+
+			 
+
+			 
+
+			 
+
+			 
+
+			 
+
+			
+            
+            
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="curve-box"></div>
+
+  </div>
+
+  
+  
+  <!-- Classic header style start -->
+
+  <div class="main-bar clearfix">
+
+    <div class="container">
+
+      <div class="logo-header mostion"><div class="logo-header-inr"><a href="https://www.facilitairebedrijven.nl/"> <img src="https://www.facilitairebedrijven.nl/wp-content/uploads/2022/01/logo-2022-nieuw.png" alt="Facilitaire Bedrijven in Nederland" title="Facilitaire Bedrijven in Nederland"> </a></div></div>
+
+      <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggle collapsed nav-top-slide-btn">
+
+      <span class="sr-only">
+
+      Toggle navigation
+      </span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+      <button type="button" class="navbar-toggle nav-left-slide-btn">
+
+      <span class="sr-only">
+
+      Toggle navigation
+      </span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+      
+      
+      <div class="header-nav navbar-collapse collapse header-nav-left">
+
+        <ul id="primary-menu" class="nav navbar-nav"><li id="menu-item-6" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6"><a href="https://www.facilitairebedrijven.nl/">Home</a></li>
+<li id="menu-item-4502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4502"><a href="#">Categorie</a>
+<ul class="sub-menu">
+	<li id="menu-item-4606" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4606"><a href="/dienstverlening/bedrijfscatering/">Bedrijfscatering</a></li>
+	<li id="menu-item-5306" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5306"><a href="/dienstverlening/bedrijfsverhuizers/">Bedrijfsverhuizers</a></li>
+	<li id="menu-item-4607" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4607"><a href="/dienstverlening/beveiliging/">Beveiliging</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5170" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5170"><a href="/dienstverlening/technische-beveiliging/">Technische beveiliging</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4608" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4608"><a href="/dienstverlening/chauffeursdiensten/">Chauffeursdiensten</a></li>
+	<li id="menu-item-4609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609"><a href="/dienstverlening/consultancy/">Consultancy</a></li>
+	<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="/dienstverlening/facilitaire-detacheringsbureaus-interim-facility/">Detachering en Interim</a></li>
+	<li id="menu-item-4926" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4926"><a href="/dienstverlening/facility-management/">Facility Management</a></li>
+	<li id="menu-item-4791" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4791"><a href="/dienstverlening/aanbieders-van-fmis-systemen/">FMIS</a></li>
+	<li id="menu-item-4611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4611"><a href="/dienstverlening/hospitality-services">Hospitality Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5147"><a href="/dienstverlening/hostesses/">Hostesses</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5169"><a href="/dienstverlening/huisvestingsmanagement/">Huisvestingsmanagement</a></li>
+	<li id="menu-item-4723" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4723"><a href="/dienstverlening/integrated-facility-management/">Integrated FM</a></li>
+	<li id="menu-item-5191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5191"><a href="/dienstverlening/kantoorinrichting/">Kantoorinrichting</a></li>
+	<li id="menu-item-4613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4613"><a href="/dienstverlening/managing-agent/">Managing Agent</a></li>
+	<li id="menu-item-4504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4504"><a href="/dienstverlening/multi-services/">Multiservice bedrijven</a></li>
+	<li id="menu-item-4615" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4615"><a href="/dienstverlening/receptiediensten/">Receptiediensten</a></li>
+	<li id="menu-item-4616" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4616"><a href="/dienstverlening/schoonmaak/">Schoonmaak</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4617"><a href="/dienstverlening/specialistisch-reinigen">Specialistisch reinigen</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4612" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4612"><a href="/dienstverlening/huismeesterdiensten-technische-services-uitbesteden/">Technische services / huismeester</a></li>
+	<li id="menu-item-4503" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4503"><a href="/dienstverlening/zzp-er/">Zzp-er</a></li>
+</ul>
+</li>
+<li id="menu-item-5121" class="menu-button menu-item menu-item-type-custom menu-item-object-custom menu-item-5121"><a href="/registreren-facilitair-bedrijf/">Bedrijf aanmelden</a></li>
+<li id="menu-item-4766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4766"><a href="https://www.facilitairebedrijven.nl/contact/">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-4753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4753"><a href="https://www.facilitairebedrijven.nl/over-ons/">Over ons</a></li>
+</ul>
+</li>
+<li id="menu-item-6495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6495"><a href="/uitbesteden/">Uitbesteden</a>
+<ul class="sub-menu">
+	<li id="menu-item-6496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6496"><a href="https://www.facilitairebedrijven.nl/uitbesteden/receptie-receptiedienst-uitbesteden/">Receptiedienst</a></li>
+	<li id="menu-item-6497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6497"><a href="https://www.facilitairebedrijven.nl/uitbesteden/cateringebedrijven-bedrijfscatering/">Bedrijfscatering</a></li>
+	<li id="menu-item-6491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6491"><a href="https://www.facilitairebedrijven.nl/uitbesteden/consultancy-facility-management/">Consultancy</a></li>
+</ul>
+</li>
+<li id="menu-item-4743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4743"><a href="#">Wat is?</a>
+<ul class="sub-menu">
+	<li id="menu-item-6507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6507"><a href="https://www.facilitairebedrijven.nl/wat-is-detachering/">Detachering</a></li>
+	<li id="menu-item-6492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6492"><a href="https://www.facilitairebedrijven.nl/facility-management-3/">Facility Management</a></li>
+	<li id="menu-item-6493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6493"><a href="https://www.facilitairebedrijven.nl/wat-is-facilitaire-dienstverlening/">Facilitaire dienstverlening</a></li>
+	<li id="menu-item-6494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6494"><a href="https://www.facilitairebedrijven.nl/wat-zijn-facilitaire-bedrijven/">Wat zijn facilitaire bedrijven?</a></li>
+	<li id="menu-item-6616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6616"><a href="https://www.facilitairebedrijven.nl/facilitaire-kengetallen/">Facilitaire kengetallen</a></li>
+	<li id="menu-item-6621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6621"><a href="https://www.facilitairebedrijven.nl/facility-management-en-artificial-intelligence-ai/">Facility Management en Artificial Intelligence (AI)</a></li>
+	<li id="menu-item-4724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4724"><a href="https://www.facilitairebedrijven.nl/search_gcse/">Beta | op websites van alle aanbieders</a></li>
+</ul>
+</li>
+</ul>
+      </div>
+
+      <div class="body-overlay" style="display: none;"></div>
+
+    </div>
+
+  </div>
+
+  <!-- Classic header style end -->
+
+  
+</header>
+
+<!-- header END -->
+
+<div class="page-content">
+      <div class="breadcrumb-row">
+      <div class="container">
+        <ul class="list-inline">
+          <li><a href="https://www.facilitairebedrijven.nl/">
+            Home            </a></li>
+          <li>404</li>        </ul>
+      </div>
+    </div>
+  <!-- contact area -->
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-notfound text-center">
+              <strong>4<i class="fa fa-frown-o text-primary"></i>4</strong> <span>
+              Page not found              </span> 
+              <form role="search" method="get" id="searchform" class="searchform" action="https://www.facilitairebedrijven.nl/">
+				<div>
+					<label class="screen-reader-text" for="s">Zoeken naar:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Zoeken" />
+				</div>
+			</form>              <a href="https://www.facilitairebedrijven.nl/" class="btn btn-primary">
+              GO TO HOME              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact area  END -->
+</div>
+<!-- Footer -->
+
+
+<footer id="footer"  >
+
+  
+  <div class="footer-top sf-top-footer-overlay">
+
+    <div class="container">
+
+      <div class="row">
+
+        
+        <!-- 4 Colomn footer -->
+
+        <div class="col-md-3 col-sm-3 col-xs-6 footer-4-col">
+
+          <div class="widget nav_menu-4 widget_nav_menu"><h4 class="widget-title">Zoek aanbieders op provincie</h4><div class="menu-provincies-container"><ul id="menu-provincies" class="menu"><li id="menu-item-5539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5539"><a href="/?s=&#038;keyword=&#038;state=Drenthe">Drenthe</a></li>
+<li id="menu-item-5540" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5540"><a href="/?s=&#038;keyword=&#038;state=Friesland">Friesland</a></li>
+<li id="menu-item-5541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5541"><a href="/?s=&#038;keyword=&#038;state=Gelderland">Gelderland</a></li>
+<li id="menu-item-5542" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5542"><a href="/?s=&#038;keyword=&#038;state=Groningen">Groningen</a></li>
+<li id="menu-item-5543" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5543"><a href="/?s=&#038;keyword=&#038;state=Limburg">Limburg</a></li>
+<li id="menu-item-5544" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5544"><a href="/?s=&#038;keyword=&#038;state=Noord-Brabant">Noord-Brabant</a></li>
+<li id="menu-item-5545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5545"><a href="/?s=&#038;keyword=&#038;state=Noord-Holland">Noord-Holland</a></li>
+<li id="menu-item-5546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5546"><a href="/?s=&#038;keyword=&#038;state=Overijssel">Overijssel</a></li>
+<li id="menu-item-5547" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5547"><a href="/?s=&#038;keyword=&#038;state=Utrecht">Utrecht</a></li>
+<li id="menu-item-5548" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5548"><a href="/?s=&#038;keyword=&#038;state=Zeeland">Zeeland</a></li>
+<li id="menu-item-5549" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5549"><a href="/?s=&#038;keyword=&#038;state=Zuid-Holland">Zuid-Holland</a></li>
+<li id="menu-item-5859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5859"><a href="https://www.facilitairebedrijven.nl/?s=&#038;keyword=&#038;searchAddress=&#038;distance=&#038;catid=">Heel Nederland</a></li>
+</ul></div></div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-6 footer-4-col">
+
+          <div class="widget nav_menu-3 widget_nav_menu"><h4 class="widget-title">Overige pagina&#8217;s</h4><div class="menu-ga-naar-container"><ul id="menu-ga-naar" class="menu"><li id="menu-item-5559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5559"><a href="https://www.facilitairebedrijven.nl/registreren-facilitair-bedrijf/">Bedrijf aanmelden</a></li>
+<li id="menu-item-5558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5558"><a href="https://www.facilitairebedrijven.nl/registreren-opdrachtgever/">Registreren als opdrachtgever</a></li>
+<li id="menu-item-5536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5536"><a href="https://www.facilitairebedrijven.nl/zoek-en-claim-uw-bedrijf/">Zoek en claim uw bedrijf</a></li>
+<li id="menu-item-5534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5534"><a href="https://www.facilitairebedrijven.nl/bedrijfsprofiel-verwijderen/">Bedrijfsprofiel verwijderen</a></li>
+<li id="menu-item-5535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5535"><a href="https://www.facilitairebedrijven.nl/toelichting-aanbevolen-positie/">Toelichting aanbevolen positie</a></li>
+<li id="menu-item-5537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5537"><a href="https://www.facilitairebedrijven.nl/toelichting-abonnement/">Toelichting abonnementen</a></li>
+</ul></div></div><div class="widget nav_menu-6 widget_nav_menu"><h4 class="widget-title">Informatieve pagina&#8217;s</h4><div class="menu-informatieve-paginas-container"><ul id="menu-informatieve-paginas" class="menu"><li id="menu-item-6201" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6201"><a>Uitbesteden</a>
+<ul class="sub-menu">
+	<li id="menu-item-6123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6123"><a href="https://www.facilitairebedrijven.nl/uitbesteden/receptie-receptiedienst-uitbesteden/">Receptiedienst</a></li>
+	<li id="menu-item-6125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6125"><a href="https://www.facilitairebedrijven.nl/uitbesteden/cateringebedrijven-bedrijfscatering/">Bedrijfscatering</a></li>
+	<li id="menu-item-6214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6214"><a href="https://www.facilitairebedrijven.nl/uitbesteden/consultancy-facility-management/">Consultancy</a></li>
+</ul>
+</li>
+<li id="menu-item-6124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6124"><a href="https://www.facilitairebedrijven.nl/wat-is-facilitaire-dienstverlening/">Facilitaire dienstverlening</a></li>
+<li id="menu-item-6122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6122"><a href="https://www.facilitairebedrijven.nl/facility-management-3/">Facility Management</a></li>
+<li id="menu-item-6126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6126"><a href="https://www.facilitairebedrijven.nl/wat-zijn-facilitaire-bedrijven/">Wat zijn facilitaire bedrijven?</a></li>
+<li id="menu-item-6615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6615"><a href="https://www.facilitairebedrijven.nl/facilitaire-kengetallen/">Facilitaire kengetallen</a></li>
+<li id="menu-item-6622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6622"><a href="https://www.facilitairebedrijven.nl/facility-management-en-artificial-intelligence-ai/">Facility Management en Artificial Intelligence (AI)</a></li>
+</ul></div></div>
+        </div>
+
+        <div class="footer-clear default-hidden"></div>
+
+        <div class="col-md-3 col-sm-3 col-xs-6 footer-4-col">
+
+          <div class="widget service_finder_providers_category-2 widget_service_finder_providers_category"><h4 class="widget-title">Categorieën</h4><div class="padding-20 margin-b-30 sf-rouned-box">
+  <div class="providers-category-bx">
+    <ul>
+    <li><a href="https://www.facilitairebedrijven.nl/dienstverlening/bedrijfscatering/">Bedrijfscatering uitbesteden</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/bedrijfsverhuizers/">Bedrijfsverhuizers</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/beveiliging/">Beveiliging<ul><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/technische-beveiliging/">Technische beveiliging</a></li></ul></a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/chauffeursdiensten/">Chauffeursdiensten</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/consultancy/">Consultancy</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/facilitaire-detacheringsbureaus-interim-facility/">Detachering en Interim -Facilitaire detacheringsbureaus</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/facility-management/">Facility Management</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/aanbieders-van-fmis-systemen/">FMIS systemen</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/hospitality-services/">Hospitality Services<ul><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/hostesses/">Hostesses</a></li></ul></a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/huismeesterdiensten-technische-services-uitbesteden/">Huismeester/technische services</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/huisvestingsmanagement/">Huisvestingsmanagement</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/integrated-facility-management/">Integrated Facility Management</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/kantoorinrichting/">Kantoorinrichting</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/managing-agent/">Managing agent</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/multi-services/">Multi Services</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/opleidingen-binnen-facility-management/">Opleidingen</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/receptiediensten/">Receptiediensten</a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/schoonmaak/">Schoonmaak<ul><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/specialistisch-reinigen/">Specialistisch reinigen</a></li></ul></a></li><li><a href="https://www.facilitairebedrijven.nl/dienstverlening/zzp-er/">ZZP'ers</a></li>    </ul>
+  </div>
+</div>
+</div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-6 footer-4-col">
+
+          <div class="widget nav_menu-2 widget_nav_menu"><h4 class="widget-title">Privacy Policy</h4><div class="menu-privacy-container"><ul id="menu-privacy" class="menu"><li id="menu-item-4863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-4863"><a rel="privacy-policy" href="https://www.facilitairebedrijven.nl/privacy-policy-2/">Privacy Policy AVG</a></li>
+<li id="menu-item-5510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5510"><a href="https://www.facilitairebedrijven.nl/herroepingsrecht/">Herroepingsbeleid</a></li>
+</ul></div></div><div class="widget block-6 widget_block"><p>Facilitaire Bedrijven <br>Lebretweg 72<br>6861ZZ Oosterbeek</p></div><div class="widget block-4 widget_block"><ul class="wp-block-list"><li>KVK 09190650</li></ul></div><div class="widget block-5 widget_block widget_media_image"><figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="733" height="210" src="https://www.facilitairebedrijven.nl/wp-content/uploads/2022/01/logo-wit.png" alt="" class="wp-image-5529" srcset="https://www.facilitairebedrijven.nl/wp-content/uploads/2022/01/logo-wit.png 733w, https://www.facilitairebedrijven.nl/wp-content/uploads/2022/01/logo-wit-300x86.png 300w, https://www.facilitairebedrijven.nl/wp-content/uploads/2022/01/logo-wit-600x172.png 600w" sizes="auto, (max-width: 733px) 100vw, 733px" /></figure></div>
+        </div>
+
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  
+  
+    
+
+  <!-- Footer bottom start -->
+
+  <div class="footer-bottom sf-bottom-footer-overlay">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 col-sm-6 col-xs-6 ">
+
+		  
+		  
+          <span>Copyright 2024 | All Rights Reserved</span>
+
+          
+          
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6">
+
+          <ul class=" socila-box list-inline pull-right">
+
+             
+
+			 
+
+			 
+
+			 
+
+			 
+
+			 
+
+			 
+
+			
+            
+            
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer bottom end -->
+
+  
+  <button class="scroltop fa fa-arrow-up" ></button>
+
+</footer>
+
+<!-- Footer END-->
+</div>
+
+
+<!-- Loading area start -->
+<div class="loading-area default-hidden">
+  <div class="loading-box"></div>
+  <div class="loading-pic"></div>
+</div>
+<!-- Loading area end -->
+            
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<!-- View my location on map-->
+<div class="set-marker-popup">
+    <div class="set-marker-popup-close"><i class="fa fa-close"></i></div>
+    <div class="set-marker-map">
+        <div id="marker-map" style="position:absolute; height:100%; width:100%; top:0; left:0;"></div>
+    </div>
+</div><!-- Modal Login & Register-->
+
+<div id="login-Modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content login-bx-dynamic">
+      <!-- Modal Login Template-->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <h4 class="modal-title">
+          Login        </h4>
+      </div>
+      <div class="modal-body clearfix">
+        <div class="row ">
+          <form class="loginform" method="post">
+            <div class="sf-login-note-wrap"></div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <div class="input-group"> <i class="input-group-addon fa fa-user"></i>
+                  <input name="login_user_name" type="text" class="form-control" placeholder="Username">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <div class="input-group"> <i class="input-group-addon fa fa-lock"></i>
+                  <input name="login_password" type="password" class="form-control" placeholder="Password">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="hidden" name="redirectnonce" id="redirectnonce" value="">
+                <input type="submit" class="btn btn-primary btn-block" name="user-login" value="Login" />
+              </div>
+            </div>
+            <div class="col-md-12 text-center"> <small><a href="javascript:;" class="regform">
+              Don&#039;t have an account?              </a> | <a href="javascript:;" class="forgotpassform">
+              Forgot Password              </a></small> </div>
+          </form>
+          <div class="sf-otherlogin-wrap">
+              <div class="col-md-12">
+                            </div>
+              <div class="col-md-12 sf-nextend-center">
+                            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-content register-modal hidden">
+      <!-- Modal Register Template-->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <h4 class="modal-title">
+          Sign up        </h4>
+      </div>
+      <div class="modal-body clearfix">
+        <div class="tabbable">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#tab2">
+              Provider              </a></li>
+            <li class="customer-signup-tab"><a data-toggle="tab" href="#tab1">
+              Customer              </a></li>
+          </ul>
+          <div class="tab-content">
+            <!-- Provider form Template-->
+            <div id="tab2" class="tab-pane fade in active">
+              <form class="provider_registration" method="post">
+                <div class="provider-bx clearfix row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input name="signup_company_name" type="text" class="form-control" placeholder="Company Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
+                    </div>
+                  </div>
+                                    <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="signup_phone" id="signup_phone" placeholder="Phone">
+                    </div>
+                  </div>
+                                    <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="signup_address" id="signup_address" placeholder="Address">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group has-select">
+                                            <select class="sf-select-box form-control" name="signup_country" data-live-search="true" title="Country" id="signup_country">
+                      <option value="">
+                        Select Country                        </option>
+					  <option selected="selected" value="Netherlands" data-code="NL">Netherlands</option>                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group" id="autocity">
+                                          <input type="text" class="form-control" name="signup_city" placeholder="Please select city from suggestion"  id="signup_city" autocomplete="off">
+                                        </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="signup_apt" placeholder="Apt/Suite #">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="signup_state" id="signup_state" placeholder="State">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="signup_zipcode" id="signup_zipcode" placeholder="Postal Code">
+                    </div>
+                  </div>
+                                    <div class="col-md-6">
+                    <div class="form-group has-select">
+                      <select class="sf-select-box form-control" name="signup_category" data-live-search="true" title="Category">
+                        <option value="">
+                        Select Category                        </option>
+                        <option value="36" data-content="<span>Bedrijfscatering uitbesteden</span>">Bedrijfscatering uitbesteden</option><option value="133" data-content="<span>Bedrijfsverhuizers</span>">Bedrijfsverhuizers</option><option value="42" data-content="<span>Beveiliging</span>">Beveiliging</option><option value="105" data-content="<span class='childcat'>Technische beveiliging</span>">Technische beveiliging</option><option value="52" data-content="<span>Chauffeursdiensten</span>">Chauffeursdiensten</option><option value="39" data-content="<span>Consultancy</span>">Consultancy</option><option value="40" data-content="<span>Detachering en Interim -Facilitaire detacheringsbureaus</span>">Detachering en Interim -Facilitaire detacheringsbureaus</option><option value="94" data-content="<span>Facility Management</span>">Facility Management</option><option value="71" data-content="<span>FMIS systemen</span>">FMIS systemen</option><option value="38" data-content="<span>Hospitality Services</span>">Hospitality Services</option><option value="110" data-content="<span class='childcat'>Hostesses</span>">Hostesses</option><option value="43" data-content="<span>Huismeester/technische services</span>">Huismeester/technische services</option><option value="115" data-content="<span>Huisvestingsmanagement</span>">Huisvestingsmanagement</option><option value="69" data-content="<span>Integrated Facility Management</span>">Integrated Facility Management</option><option value="118" data-content="<span>Kantoorinrichting</span>">Kantoorinrichting</option><option value="45" data-content="<span>Managing agent</span>">Managing agent</option><option value="35" data-content="<span>Multi Services</span>">Multi Services</option><option value="163" data-content="<span>Opleidingen</span>">Opleidingen</option><option value="37" data-content="<span>Receptiediensten</span>">Receptiediensten</option><option value="41" data-content="<span>Schoonmaak</span>">Schoonmaak</option><option value="63" data-content="<span class='childcat'>Specialistisch reinigen</span>">Specialistisch reinigen</option><option value="44" data-content="<span>ZZP&#039;ers</span>">ZZP'ers</option>                      </select>
+                    </div>
+                  </div>
+                  <input type="hidden" name="provider-role" value="package_1" />                                                      <div class="col-md-12">
+                    <div class="form-group">
+                    <div class="checkbox sf-radio-checkbox">
+                    <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
+                    <label for="providertermsncondition">
+                    Ik ben akkoord met de voorwaarden van facilitairebedrijven.nl                    </label>
+                  </div>
+                  	</div>
+                  </div>
+                                                      <div id="providersignup_captcha"></div>
+                                    <div class="col-md-12">
+                    <input type="hidden" name="freemode" id="freemode" value="yes" />
+                    <input type="hidden" name="signup_user_role" value="Provider" />
+                    <input type="hidden" name="userregister" value="signup">
+                    <input type="submit" class="btn btn-primary btn-block" name="user-register" value="Sign up" />
+                  </div>
+                  <div class="col-md-12 text-center"> <small><a href="javascript:;" class="loginform">
+                    Already Registered?                    </a></small> </div>
+                </div>
+              </form>
+              <div class="sf-other-logins sf-other-login-one">
+              	<ul class="row">
+                	                    
+                                    </ul>
+              </div>
+            </div>
+            <!-- Customer form Template-->
+            <div id="tab1" class="tab-pane fade customer-signup-tab-content">
+              <form class="customer_registration" method="post">
+                <div class="customer-bx clearfix row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_user_email" id="signup_customer_user_email" type="text" class="form-control" placeholder="Email">
+                    </div>
+                  </div>
+					                  
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_password" type="password" class="form-control" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+                    </div>
+                  </div>
+                                    <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="checkbox sf-radio-checkbox">
+                    <input type="checkbox" value="yes" name="customertermsncondition" id="customertermsncondition">
+                    <label for="customertermsncondition">
+                    Ik ben akkoord met de voorwaarden van facilitairebedrijven.nl                    </label>
+                  </div>
+                  </div>
+                  </div>
+                                                      <div id="customersignup_captcha"></div>
+                                    <div class="col-md-12">
+                    <input type="hidden" name="signup_user_role" value="Customer" />
+                    <input type="submit" class="btn btn-primary btn-block" name="user-register" value="Sign up" />
+                  </div>
+                  <div class="col-md-12 text-center"> <small><a href="javascript:;" class="loginform">
+                    Already Registered?                    </a></small> </div>
+                </div>
+              </form>
+              <div class="sf-other-logins sf-other-login-one">
+              	<ul class="row">
+                	                    
+                                    </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer bg-gray"> </div>
+    </div>
+    <!-- Forgot Password Template-->
+    <div class="modal-content forgotpass-modal hidden">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <h4 class="modal-title">
+          Forgot Password        </h4>
+      </div>
+      <div class="modal-body clearfix">
+        <div class="row ">
+          <form class="forgotpassform" method="post">
+            <div class="col-md-12">
+              <div class="form-group">
+                <div class="input-group"> <i class="input-group-addon fa fa-user"></i>
+                  <input name="fp_user_login" id="fp_user_login" type="text" class="form-control" placeholder="Username or E-mail:">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="hidden" name="action" value="resetpass" />
+                <input type="submit" class="btn btn-primary btn-block" name="user-login" value="Reset Password" />
+              </div>
+            </div>
+            <div class="col-md-12 text-center"> <small><a href="javascript:;" class="regform">
+              Don&#039;t have an account?              </a> | <a href="javascript:;" class="loginform">
+              Already Registered?              </a></small> </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal END-->
+
+	<div class="sf-services-panel-wrap">
+
+        <div class="sf-services-panel-close"><i class="fa fa-close"></i></div>
+
+        <div class="sf-services-panel-inner">
+
+            <ul class="sf-services-panel-listing">
+
+            </ul>
+
+        </div>
+
+    </div>
+
+	<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wc-blocks-style-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://www.facilitairebedrijven.nl/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.15' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<script type="text/javascript" id="google_cse_v2-js-extra">
+/* <![CDATA[ */
+var scriptParams = {"google_search_engine_id":"c8672d4da52606a9a"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/wp-google-search/assets/js/google_cse_v2.js?ver=1" id="google_cse_v2-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.1" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2024-11-03 11:43:10+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"This contact form is placed in the wrong place.":["Dit contactformulier staat op de verkeerde plek."],"Error:":["Fout:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.facilitairebedrijven.nl\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.1" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/gpt3-ai-content-generator/public/js/wpaicg-form-shortcode.js" id="wpaicg-gpt-form-js"></script>
+<script type="text/javascript" id="wpaicg-init-js-extra">
+/* <![CDATA[ */
+var wpaicgParams = {"ajax_url":"https:\/\/www.facilitairebedrijven.nl\/wp-admin\/admin-ajax.php","search_nonce":"e9f8f98166","logged_in":"0","languages":{"source":"Sources","no_result":"No result found","wrong":"Something went wrong","prompt_strength":"Please enter a valid prompt strength value between 0 and 1.","num_inference_steps":"Please enter a valid number of inference steps value between 1 and 500.","guidance_scale":"Please enter a valid guidance scale value between 1 and 20.","error_image":"Please select least one image for generate","save_image_success":"Save images to media successfully","select_all":"Select All","unselect":"Unselect","select_save_error":"Please select least one image to save","alternative":"Alternative Text","title":"Title","edit_image":"Edit Image","caption":"Caption","description":"Description","save":"Save","removed_pdf":"Your pdf session is cleared"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/gpt3-ai-content-generator/public/js/wpaicg-init.js" id="wpaicg-init-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/gpt3-ai-content-generator/public/js/wpaicg-chat.js" id="wpaicg-chat-script-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/gpt3-ai-content-generator/public/js/marked.js" id="wpaicg-markdown-script-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.15" defer async id="tp-tools-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.15" defer async id="revmin-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=explicit" id="recaptcha-api-js"></script>
+<script type="text/javascript" id="bootstrap-select-js-extra">
+/* <![CDATA[ */
+var param = {"not_valid":"This value is not valid","email_exist":"Email already exist","req":"This field is required","are_you_sure":"Are you sure?","are_you_sure_cancel_membership":"Are you sure you want to cancel this providers membership?","are_you_sure_reset_business_hours":"Are you sure you want to reset providers business hours?","are_you_sure_reactivate_membership":"Are you sure you want to reactivate this providers membership?","bulk_slots_warning":"All existing slots will be deleted for selected days after this bulk import.","are_you_sure_approve_mail":"Are you sure? Mail will be sent to provider after approve autometically.","login_user_name":"Username is required","login_password":"Password is required","fp_user_login":"Please enter username or email","signup_user_name":"Username is required","signup_first_name":"First name is required","signup_last_name":"Last name is required","signup_address":"Address is required","allowed_country":"This country is not allowed","signup_city":"Please select city from suggestion","nationality_req":"Nationality is required","signup_country":"Country is required","signup_user_email":"The input is not a valid email address","providertermsncondition":"Please check the checkbox","signup_password_empty":"The password is required and cannot be empty","signup_password_length":"Password must be 5 to 15 characters long","signup_password_confirm":"The password and its confirm are not the same","primary_category":"Primary Category is required","category":"Category is required","min_cost":"Minimum cost is required","allowed_booking":"Number of bookings allowed","edit_unavl":"Edit UnAvailability","edit_offers":"Edit Offers","select_date":"Please select date","select_timeslot":"Select Timeslot","select_timeslot_req":"Please select timeslot","select_checkbox":"Please select atleast one checkbox","region":"Region is required","change_status":"Are you sure you want to change the status?","no_data":"No data found in the server","postal_code":"Postal Code is required","edit_service":"Edit Service","edit_article":"Edit Article","edit_applied_job":"Edit Applied Job","view_applied_job":"View Applied Job","service_name":"Service name is required","select_payment":"Please select payment method","set_key":"Please set secret and publish key for stripe","pub_key":"You did not set a valid publishable key","change_complete_status":"Are you sure you want to change the status to complete?","change_incomplete_status":"Are you sure you want to change the status to incomplete?","member":"Member name is required","anyone":"Any One","assign_member":"Assign Member","add_feedback":"Add Feedback","feedback":"Feedback","edit_booking":"Edit Booking","rating":"Please give some rating","comment":"Please enter some comment","any_member":"Please select any member","timeslot_member":"Please select timeslot or member","add_invoice":"Add Invoice","desc_req":"Description is required","price":"The price is required","due_date":"The due date is required","edit_invoice":"Edit Invoice","reminder_mail":"Send Reminder Mail","comment_text":"Comments","cancel":"Cancel","cancel_sub":"Are you sure you want to cancel subscription?","edit_featured_price":"Edit Price","cancel_featured":"Are you sure you want to cancel featured\/featured request?","customer_name":"Customer name is required","add_to_fav":"Add to Fav","select_service":"Please select atleast one service","otp_mail":"Please check email for OTP","otp_pass":"Please enter otp password","otp_right":"Please insert correct otp","reconfirm_email":"Please re-confirm the email address","gen_otp":"Generate One time Password to Confirm Email","edit_text":"Edit","state":"State is required","city":"City is required","service_not_avl":"Service not available in your area","notavl_select_service":"Service not available in your area or Select atleast one service","region_and_service":"Please select region and at least one service","timeslot":"Please select timeslot","member_select":"Please select member","my_fav":"My Favorite","booking_suc":"Congratulations! Your booking has been made successfully","postcode_not_avl":"Postal Code is not available","submit_now":"Submit Now","next_text":"Next","paynow":"Pay Now","dt_first":"First","dt_last":"Last","dt_previous":"Prev","dt_next":"Next","dt_search":"Search","dt_show":"Show","dt_entries":"entries","dt_showing":"Showing","dt_to":"to","dt_of":"of","lang":"nl-NL","hire_if_booking_off_msg":"Provider booking form is closed. Still you want to book him?","select_plan":"Please select plan","add_city":"Add new city","latlng_notfound":"Lat and long cannot be found","captcha_validate":"The Validation code does not match!","no_result":"No results matched","only_digits":"Please enter only digits","not_selected":"Nothing selected","empty_table":"No data available in table","captchaverify":"Please verify the captcha code","enablebusiness":"Enable Claim Business","disbalebusiness":"Disable Claim Business","applied":"Applied","group_req":"Please insert group name","video_req":"Please insert video url","google_client_id_req":"Please insert Google Client ID","google_client_secret_req":"Please insert Google Client Secret","perpersion":"Item","perhour":"Hour","perpersion_short":"Item","perhour_short":"Hr","radius_search":"Please fill address to search by radius","show_more":"Show More Location","show_less":"Show Less Location","currencysymbol":"\u20ac","only_numeric":"Please enter only numerics","yourname":"Your name","email":"Email","website":"Website","entercomments":"Enter your comments...","approve_request":"Are you sure you want to approve?","make_unfeatured":"Do you want to make this provider Unfeatured?","make_unbloacked":"Do you want to make this provider Unblocked?","currentvalue":"Current value","bookings_schedule":"Bookings Schedule","select_starttime":"Please select start time","select_endtime":"Please select end time","start_endtime_balance":"End time should be greater than start time","select_interval":"Please select slot interval","change_interval_warning":"After change current interval existing slots will be lost.","select_weekday":"Please select atleast one week day","payto_provider_confirm":"Are you sure you want to pay provider","payto_provider_change_status":"Are you sure you want to change payment status from pending to paid?","edit_member":"Edit Member","remain_on_same_page":"Remain on Same Page","continue_lable":"Continue","complete_booking_and_pay":"If you press ok then funds will be released by admin to provider.","file_message":"Please choose a file","csv":"File must be a CSV","import_success":"Providers Imported Successfully","import_categories_success":"Categories Imported Successfully","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","select_hours_text":"Please insert hours for service","unavl_days":"Select Unavailable Days","select_option":"Please select above option","valid_number":"Please insert a valid number","booking_dates":"Please select dates","select_region":"Please select region","insert_zipcode":"Please insert zipcode","insufficient_wallet_amount":"Insufficient wallet amount. Please <a href=\"https:\/\/www.facilitairebedrijven.nl\/my-account\/?tabname=wallet\" target=\"_blank\">add balance<\/a> to wallet","amount_range":"Please insert amount between 10 to 100","payment_method_req":"Please select payment method","quote_reply":"Quotation Reply","edit_experience":"Edit Experience","set_member_timeslot":"Set Timeslots","wallet":"Wallet","wallet_balance":"Wallet Balance","checkout":"Checkout","skip_payment":"Skip Payment","have_coupon":"Have a coupon code","verify":"Verify","email_req":"Please fill email address to continue","edit_certificates":"Edit Certificate","edit_qualification":"Edit Qualification","username_exist":"Username already exist","edit_string":"Edit","price_req":"Please enter price","declinereason":"Short description about decline reason","sEmptyTable":"No data available in table","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sInfoEmpty":"Showing 0 to 0 of 0 entries","sInfoFiltered":"(filtered from _MAX_ total entries)","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sProcessing":"Processing...","sSearch":"Search:","sZeroRecords":"No matching records found","sFirst":"First","sLast":"Last","sNext":"Next","sPrevious":"Previous","sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending","routing_number":"Routing Number","account_number":"Account Number","iban_number":"IBAN Number","sort_code":"Sort Code","invitation_sent":"Invitation Sent"};
+var param = {"not_valid":"This value is not valid","email_exist":"Email already exist","req":"This field is required","are_you_sure":"Are you sure?","are_you_sure_cancel_membership":"Are you sure you want to cancel this providers membership?","are_you_sure_reset_business_hours":"Are you sure you want to reset providers business hours?","are_you_sure_reactivate_membership":"Are you sure you want to reactivate this providers membership?","bulk_slots_warning":"All existing slots will be deleted for selected days after this bulk import.","are_you_sure_approve_mail":"Are you sure? Mail will be sent to provider after approve autometically.","login_user_name":"Username is required","login_password":"Password is required","fp_user_login":"Please enter username or email","signup_user_name":"Username is required","signup_first_name":"First name is required","signup_last_name":"Last name is required","signup_address":"Address is required","allowed_country":"This country is not allowed","signup_city":"Please select city from suggestion","nationality_req":"Nationality is required","signup_country":"Country is required","signup_user_email":"The input is not a valid email address","providertermsncondition":"Please check the checkbox","signup_password_empty":"The password is required and cannot be empty","signup_password_length":"Password must be 5 to 15 characters long","signup_password_confirm":"The password and its confirm are not the same","primary_category":"Primary Category is required","category":"Category is required","min_cost":"Minimum cost is required","allowed_booking":"Number of bookings allowed","edit_unavl":"Edit UnAvailability","edit_offers":"Edit Offers","select_date":"Please select date","select_timeslot":"Select Timeslot","select_timeslot_req":"Please select timeslot","select_checkbox":"Please select atleast one checkbox","region":"Region is required","change_status":"Are you sure you want to change the status?","no_data":"No data found in the server","postal_code":"Postal Code is required","edit_service":"Edit Service","edit_article":"Edit Article","edit_applied_job":"Edit Applied Job","view_applied_job":"View Applied Job","service_name":"Service name is required","select_payment":"Please select payment method","set_key":"Please set secret and publish key for stripe","pub_key":"You did not set a valid publishable key","change_complete_status":"Are you sure you want to change the status to complete?","change_incomplete_status":"Are you sure you want to change the status to incomplete?","member":"Member name is required","anyone":"Any One","assign_member":"Assign Member","add_feedback":"Add Feedback","feedback":"Feedback","edit_booking":"Edit Booking","rating":"Please give some rating","comment":"Please enter some comment","any_member":"Please select any member","timeslot_member":"Please select timeslot or member","add_invoice":"Add Invoice","desc_req":"Description is required","price":"The price is required","due_date":"The due date is required","edit_invoice":"Edit Invoice","reminder_mail":"Send Reminder Mail","comment_text":"Comments","cancel":"Cancel","cancel_sub":"Are you sure you want to cancel subscription?","edit_featured_price":"Edit Price","cancel_featured":"Are you sure you want to cancel featured\/featured request?","customer_name":"Customer name is required","add_to_fav":"Add to Fav","select_service":"Please select atleast one service","otp_mail":"Please check email for OTP","otp_pass":"Please enter otp password","otp_right":"Please insert correct otp","reconfirm_email":"Please re-confirm the email address","gen_otp":"Generate One time Password to Confirm Email","edit_text":"Edit","state":"State is required","city":"City is required","service_not_avl":"Service not available in your area","notavl_select_service":"Service not available in your area or Select atleast one service","region_and_service":"Please select region and at least one service","timeslot":"Please select timeslot","member_select":"Please select member","my_fav":"My Favorite","booking_suc":"Congratulations! Your booking has been made successfully","postcode_not_avl":"Postal Code is not available","submit_now":"Submit Now","next_text":"Next","paynow":"Pay Now","dt_first":"First","dt_last":"Last","dt_previous":"Prev","dt_next":"Next","dt_search":"Search","dt_show":"Show","dt_entries":"entries","dt_showing":"Showing","dt_to":"to","dt_of":"of","lang":"nl-NL","hire_if_booking_off_msg":"Provider booking form is closed. Still you want to book him?","select_plan":"Please select plan","add_city":"Add new city","latlng_notfound":"Lat and long cannot be found","captcha_validate":"The Validation code does not match!","no_result":"No results matched","only_digits":"Please enter only digits","not_selected":"Nothing selected","empty_table":"No data available in table","captchaverify":"Please verify the captcha code","enablebusiness":"Enable Claim Business","disbalebusiness":"Disable Claim Business","applied":"Applied","group_req":"Please insert group name","video_req":"Please insert video url","google_client_id_req":"Please insert Google Client ID","google_client_secret_req":"Please insert Google Client Secret","perpersion":"Item","perhour":"Hour","perpersion_short":"Item","perhour_short":"Hr","radius_search":"Please fill address to search by radius","show_more":"Show More Location","show_less":"Show Less Location","currencysymbol":"\u20ac","only_numeric":"Please enter only numerics","yourname":"Your name","email":"Email","website":"Website","entercomments":"Enter your comments...","approve_request":"Are you sure you want to approve?","make_unfeatured":"Do you want to make this provider Unfeatured?","make_unbloacked":"Do you want to make this provider Unblocked?","currentvalue":"Current value","bookings_schedule":"Bookings Schedule","select_starttime":"Please select start time","select_endtime":"Please select end time","start_endtime_balance":"End time should be greater than start time","select_interval":"Please select slot interval","change_interval_warning":"After change current interval existing slots will be lost.","select_weekday":"Please select atleast one week day","payto_provider_confirm":"Are you sure you want to pay provider","payto_provider_change_status":"Are you sure you want to change payment status from pending to paid?","edit_member":"Edit Member","remain_on_same_page":"Remain on Same Page","continue_lable":"Continue","complete_booking_and_pay":"If you press ok then funds will be released by admin to provider.","file_message":"Please choose a file","csv":"File must be a CSV","import_success":"Providers Imported Successfully","import_categories_success":"Categories Imported Successfully","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","select_hours_text":"Please insert hours for service","unavl_days":"Select Unavailable Days","select_option":"Please select above option","valid_number":"Please insert a valid number","booking_dates":"Please select dates","select_region":"Please select region","insert_zipcode":"Please insert zipcode","insufficient_wallet_amount":"Insufficient wallet amount. Please <a href=\"https:\/\/www.facilitairebedrijven.nl\/my-account\/?tabname=wallet\" target=\"_blank\">add balance<\/a> to wallet","amount_range":"Please insert amount between 10 to 100","payment_method_req":"Please select payment method","quote_reply":"Quotation Reply","edit_experience":"Edit Experience","set_member_timeslot":"Set Timeslots","wallet":"Wallet","wallet_balance":"Wallet Balance","checkout":"Checkout","skip_payment":"Skip Payment","have_coupon":"Have a coupon code","verify":"Verify","email_req":"Please fill email address to continue","edit_certificates":"Edit Certificate","edit_qualification":"Edit Qualification","username_exist":"Username already exist","edit_string":"Edit","price_req":"Please enter price","declinereason":"Short description about decline reason","sEmptyTable":"No data available in table","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sInfoEmpty":"Showing 0 to 0 of 0 entries","sInfoFiltered":"(filtered from _MAX_ total entries)","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sProcessing":"Processing...","sSearch":"Search:","sZeroRecords":"No matching records found","sFirst":"First","sLast":"Last","sNext":"Next","sPrevious":"Previous","sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending","routing_number":"Routing Number","account_number":"Account Number","iban_number":"IBAN Number","sort_code":"Sort Code","invitation_sent":"Invitation Sent"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/bootstrap-select.min.js" id="bootstrap-select-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/jquery.bootstrap-touchspin.js" id="bootstrap-touchspin-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/waypoints-min.js" id="waypoints-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/counterup.min.js" id="counterup-js"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyAQEPEN03rYbFisDoh4P1wWfr6bEW0Tkzk&amp;types=(cities)&amp;libraries=places&amp;language=nl" id="google-map-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/bootstrap.min.js" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/bootstrap-toggle.min.js" id="bootstrap-toggle-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/ratings/star-rating.js" id="star-rating-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/encoder.js" id="service_finder-js-encoder-js"></script>
+<script type="text/javascript" id="service_finder-js-form-validation-js-extra">
+/* <![CDATA[ */
+var param = {"not_valid":"This value is not valid","email_exist":"Email already exist","req":"This field is required","are_you_sure":"Are you sure?","are_you_sure_cancel_membership":"Are you sure you want to cancel this providers membership?","are_you_sure_reset_business_hours":"Are you sure you want to reset providers business hours?","are_you_sure_reactivate_membership":"Are you sure you want to reactivate this providers membership?","bulk_slots_warning":"All existing slots will be deleted for selected days after this bulk import.","are_you_sure_approve_mail":"Are you sure? Mail will be sent to provider after approve autometically.","login_user_name":"Username is required","login_password":"Password is required","fp_user_login":"Please enter username or email","signup_user_name":"Username is required","signup_first_name":"First name is required","signup_last_name":"Last name is required","signup_address":"Address is required","allowed_country":"This country is not allowed","signup_city":"Please select city from suggestion","nationality_req":"Nationality is required","signup_country":"Country is required","signup_user_email":"The input is not a valid email address","providertermsncondition":"Please check the checkbox","signup_password_empty":"The password is required and cannot be empty","signup_password_length":"Password must be 5 to 15 characters long","signup_password_confirm":"The password and its confirm are not the same","primary_category":"Primary Category is required","category":"Category is required","min_cost":"Minimum cost is required","allowed_booking":"Number of bookings allowed","edit_unavl":"Edit UnAvailability","edit_offers":"Edit Offers","select_date":"Please select date","select_timeslot":"Select Timeslot","select_timeslot_req":"Please select timeslot","select_checkbox":"Please select atleast one checkbox","region":"Region is required","change_status":"Are you sure you want to change the status?","no_data":"No data found in the server","postal_code":"Postal Code is required","edit_service":"Edit Service","edit_article":"Edit Article","edit_applied_job":"Edit Applied Job","view_applied_job":"View Applied Job","service_name":"Service name is required","select_payment":"Please select payment method","set_key":"Please set secret and publish key for stripe","pub_key":"You did not set a valid publishable key","change_complete_status":"Are you sure you want to change the status to complete?","change_incomplete_status":"Are you sure you want to change the status to incomplete?","member":"Member name is required","anyone":"Any One","assign_member":"Assign Member","add_feedback":"Add Feedback","feedback":"Feedback","edit_booking":"Edit Booking","rating":"Please give some rating","comment":"Please enter some comment","any_member":"Please select any member","timeslot_member":"Please select timeslot or member","add_invoice":"Add Invoice","desc_req":"Description is required","price":"The price is required","due_date":"The due date is required","edit_invoice":"Edit Invoice","reminder_mail":"Send Reminder Mail","comment_text":"Comments","cancel":"Cancel","cancel_sub":"Are you sure you want to cancel subscription?","edit_featured_price":"Edit Price","cancel_featured":"Are you sure you want to cancel featured\/featured request?","customer_name":"Customer name is required","add_to_fav":"Add to Fav","select_service":"Please select atleast one service","otp_mail":"Please check email for OTP","otp_pass":"Please enter otp password","otp_right":"Please insert correct otp","reconfirm_email":"Please re-confirm the email address","gen_otp":"Generate One time Password to Confirm Email","edit_text":"Edit","state":"State is required","city":"City is required","service_not_avl":"Service not available in your area","notavl_select_service":"Service not available in your area or Select atleast one service","region_and_service":"Please select region and at least one service","timeslot":"Please select timeslot","member_select":"Please select member","my_fav":"My Favorite","booking_suc":"Congratulations! Your booking has been made successfully","postcode_not_avl":"Postal Code is not available","submit_now":"Submit Now","next_text":"Next","paynow":"Pay Now","dt_first":"First","dt_last":"Last","dt_previous":"Prev","dt_next":"Next","dt_search":"Search","dt_show":"Show","dt_entries":"entries","dt_showing":"Showing","dt_to":"to","dt_of":"of","lang":"nl-NL","hire_if_booking_off_msg":"Provider booking form is closed. Still you want to book him?","select_plan":"Please select plan","add_city":"Add new city","latlng_notfound":"Lat and long cannot be found","captcha_validate":"The Validation code does not match!","no_result":"No results matched","only_digits":"Please enter only digits","not_selected":"Nothing selected","empty_table":"No data available in table","captchaverify":"Please verify the captcha code","enablebusiness":"Enable Claim Business","disbalebusiness":"Disable Claim Business","applied":"Applied","group_req":"Please insert group name","video_req":"Please insert video url","google_client_id_req":"Please insert Google Client ID","google_client_secret_req":"Please insert Google Client Secret","perpersion":"Item","perhour":"Hour","perpersion_short":"Item","perhour_short":"Hr","radius_search":"Please fill address to search by radius","show_more":"Show More Location","show_less":"Show Less Location","currencysymbol":"\u20ac","only_numeric":"Please enter only numerics","yourname":"Your name","email":"Email","website":"Website","entercomments":"Enter your comments...","approve_request":"Are you sure you want to approve?","make_unfeatured":"Do you want to make this provider Unfeatured?","make_unbloacked":"Do you want to make this provider Unblocked?","currentvalue":"Current value","bookings_schedule":"Bookings Schedule","select_starttime":"Please select start time","select_endtime":"Please select end time","start_endtime_balance":"End time should be greater than start time","select_interval":"Please select slot interval","change_interval_warning":"After change current interval existing slots will be lost.","select_weekday":"Please select atleast one week day","payto_provider_confirm":"Are you sure you want to pay provider","payto_provider_change_status":"Are you sure you want to change payment status from pending to paid?","edit_member":"Edit Member","remain_on_same_page":"Remain on Same Page","continue_lable":"Continue","complete_booking_and_pay":"If you press ok then funds will be released by admin to provider.","file_message":"Please choose a file","csv":"File must be a CSV","import_success":"Providers Imported Successfully","import_categories_success":"Categories Imported Successfully","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","select_hours_text":"Please insert hours for service","unavl_days":"Select Unavailable Days","select_option":"Please select above option","valid_number":"Please insert a valid number","booking_dates":"Please select dates","select_region":"Please select region","insert_zipcode":"Please insert zipcode","insufficient_wallet_amount":"Insufficient wallet amount. Please <a href=\"https:\/\/www.facilitairebedrijven.nl\/my-account\/?tabname=wallet\" target=\"_blank\">add balance<\/a> to wallet","amount_range":"Please insert amount between 10 to 100","payment_method_req":"Please select payment method","quote_reply":"Quotation Reply","edit_experience":"Edit Experience","set_member_timeslot":"Set Timeslots","wallet":"Wallet","wallet_balance":"Wallet Balance","checkout":"Checkout","skip_payment":"Skip Payment","have_coupon":"Have a coupon code","verify":"Verify","email_req":"Please fill email address to continue","edit_certificates":"Edit Certificate","edit_qualification":"Edit Qualification","username_exist":"Username already exist","edit_string":"Edit","price_req":"Please enter price","declinereason":"Short description about decline reason","sEmptyTable":"No data available in table","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sInfoEmpty":"Showing 0 to 0 of 0 entries","sInfoFiltered":"(filtered from _MAX_ total entries)","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sProcessing":"Processing...","sSearch":"Search:","sZeroRecords":"No matching records found","sFirst":"First","sLast":"Last","sNext":"Next","sPrevious":"Previous","sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending","routing_number":"Routing Number","account_number":"Account Number","iban_number":"IBAN Number","sort_code":"Sort Code","invitation_sent":"Invitation Sent"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/scripts/form-validation.js" id="service_finder-js-form-validation-js"></script>
+<script type="text/javascript" id="service_finder-js-form-validation-js-after">
+/* <![CDATA[ */
+/*Declare global variable*/
+var twocheckoutaccountid = "";
+var twocheckoutpublishkey = "";
+var twocheckouttype = "";
+var twocheckoutmode = "sandbox";
+var totalcountry = "1";
+var signupautosuggestion = "1";
+var quicksignup = "0";
+/* ]]> */
+</script>
+<script type="text/javascript" id="service_finder-js-custom-effects-js-extra">
+/* <![CDATA[ */
+var param = {"not_valid":"This value is not valid","email_exist":"Email already exist","req":"This field is required","are_you_sure":"Are you sure?","are_you_sure_cancel_membership":"Are you sure you want to cancel this providers membership?","are_you_sure_reset_business_hours":"Are you sure you want to reset providers business hours?","are_you_sure_reactivate_membership":"Are you sure you want to reactivate this providers membership?","bulk_slots_warning":"All existing slots will be deleted for selected days after this bulk import.","are_you_sure_approve_mail":"Are you sure? Mail will be sent to provider after approve autometically.","login_user_name":"Username is required","login_password":"Password is required","fp_user_login":"Please enter username or email","signup_user_name":"Username is required","signup_first_name":"First name is required","signup_last_name":"Last name is required","signup_address":"Address is required","allowed_country":"This country is not allowed","signup_city":"Please select city from suggestion","nationality_req":"Nationality is required","signup_country":"Country is required","signup_user_email":"The input is not a valid email address","providertermsncondition":"Please check the checkbox","signup_password_empty":"The password is required and cannot be empty","signup_password_length":"Password must be 5 to 15 characters long","signup_password_confirm":"The password and its confirm are not the same","primary_category":"Primary Category is required","category":"Category is required","min_cost":"Minimum cost is required","allowed_booking":"Number of bookings allowed","edit_unavl":"Edit UnAvailability","edit_offers":"Edit Offers","select_date":"Please select date","select_timeslot":"Select Timeslot","select_timeslot_req":"Please select timeslot","select_checkbox":"Please select atleast one checkbox","region":"Region is required","change_status":"Are you sure you want to change the status?","no_data":"No data found in the server","postal_code":"Postal Code is required","edit_service":"Edit Service","edit_article":"Edit Article","edit_applied_job":"Edit Applied Job","view_applied_job":"View Applied Job","service_name":"Service name is required","select_payment":"Please select payment method","set_key":"Please set secret and publish key for stripe","pub_key":"You did not set a valid publishable key","change_complete_status":"Are you sure you want to change the status to complete?","change_incomplete_status":"Are you sure you want to change the status to incomplete?","member":"Member name is required","anyone":"Any One","assign_member":"Assign Member","add_feedback":"Add Feedback","feedback":"Feedback","edit_booking":"Edit Booking","rating":"Please give some rating","comment":"Please enter some comment","any_member":"Please select any member","timeslot_member":"Please select timeslot or member","add_invoice":"Add Invoice","desc_req":"Description is required","price":"The price is required","due_date":"The due date is required","edit_invoice":"Edit Invoice","reminder_mail":"Send Reminder Mail","comment_text":"Comments","cancel":"Cancel","cancel_sub":"Are you sure you want to cancel subscription?","edit_featured_price":"Edit Price","cancel_featured":"Are you sure you want to cancel featured\/featured request?","customer_name":"Customer name is required","add_to_fav":"Add to Fav","select_service":"Please select atleast one service","otp_mail":"Please check email for OTP","otp_pass":"Please enter otp password","otp_right":"Please insert correct otp","reconfirm_email":"Please re-confirm the email address","gen_otp":"Generate One time Password to Confirm Email","edit_text":"Edit","state":"State is required","city":"City is required","service_not_avl":"Service not available in your area","notavl_select_service":"Service not available in your area or Select atleast one service","region_and_service":"Please select region and at least one service","timeslot":"Please select timeslot","member_select":"Please select member","my_fav":"My Favorite","booking_suc":"Congratulations! Your booking has been made successfully","postcode_not_avl":"Postal Code is not available","submit_now":"Submit Now","next_text":"Next","paynow":"Pay Now","dt_first":"First","dt_last":"Last","dt_previous":"Prev","dt_next":"Next","dt_search":"Search","dt_show":"Show","dt_entries":"entries","dt_showing":"Showing","dt_to":"to","dt_of":"of","lang":"nl-NL","hire_if_booking_off_msg":"Provider booking form is closed. Still you want to book him?","select_plan":"Please select plan","add_city":"Add new city","latlng_notfound":"Lat and long cannot be found","captcha_validate":"The Validation code does not match!","no_result":"No results matched","only_digits":"Please enter only digits","not_selected":"Nothing selected","empty_table":"No data available in table","captchaverify":"Please verify the captcha code","enablebusiness":"Enable Claim Business","disbalebusiness":"Disable Claim Business","applied":"Applied","group_req":"Please insert group name","video_req":"Please insert video url","google_client_id_req":"Please insert Google Client ID","google_client_secret_req":"Please insert Google Client Secret","perpersion":"Item","perhour":"Hour","perpersion_short":"Item","perhour_short":"Hr","radius_search":"Please fill address to search by radius","show_more":"Show More Location","show_less":"Show Less Location","currencysymbol":"\u20ac","only_numeric":"Please enter only numerics","yourname":"Your name","email":"Email","website":"Website","entercomments":"Enter your comments...","approve_request":"Are you sure you want to approve?","make_unfeatured":"Do you want to make this provider Unfeatured?","make_unbloacked":"Do you want to make this provider Unblocked?","currentvalue":"Current value","bookings_schedule":"Bookings Schedule","select_starttime":"Please select start time","select_endtime":"Please select end time","start_endtime_balance":"End time should be greater than start time","select_interval":"Please select slot interval","change_interval_warning":"After change current interval existing slots will be lost.","select_weekday":"Please select atleast one week day","payto_provider_confirm":"Are you sure you want to pay provider","payto_provider_change_status":"Are you sure you want to change payment status from pending to paid?","edit_member":"Edit Member","remain_on_same_page":"Remain on Same Page","continue_lable":"Continue","complete_booking_and_pay":"If you press ok then funds will be released by admin to provider.","file_message":"Please choose a file","csv":"File must be a CSV","import_success":"Providers Imported Successfully","import_categories_success":"Categories Imported Successfully","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","select_hours_text":"Please insert hours for service","unavl_days":"Select Unavailable Days","select_option":"Please select above option","valid_number":"Please insert a valid number","booking_dates":"Please select dates","select_region":"Please select region","insert_zipcode":"Please insert zipcode","insufficient_wallet_amount":"Insufficient wallet amount. Please <a href=\"https:\/\/www.facilitairebedrijven.nl\/my-account\/?tabname=wallet\" target=\"_blank\">add balance<\/a> to wallet","amount_range":"Please insert amount between 10 to 100","payment_method_req":"Please select payment method","quote_reply":"Quotation Reply","edit_experience":"Edit Experience","set_member_timeslot":"Set Timeslots","wallet":"Wallet","wallet_balance":"Wallet Balance","checkout":"Checkout","skip_payment":"Skip Payment","have_coupon":"Have a coupon code","verify":"Verify","email_req":"Please fill email address to continue","edit_certificates":"Edit Certificate","edit_qualification":"Edit Qualification","username_exist":"Username already exist","edit_string":"Edit","price_req":"Please enter price","declinereason":"Short description about decline reason","sEmptyTable":"No data available in table","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sInfoEmpty":"Showing 0 to 0 of 0 entries","sInfoFiltered":"(filtered from _MAX_ total entries)","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sProcessing":"Processing...","sSearch":"Search:","sZeroRecords":"No matching records found","sFirst":"First","sLast":"Last","sNext":"Next","sPrevious":"Previous","sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending","routing_number":"Routing Number","account_number":"Account Number","iban_number":"IBAN Number","sort_code":"Sort Code","invitation_sent":"Invitation Sent"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/scripts/custom-effects.js" id="service_finder-js-custom-effects-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/qanda.js" id="service_finder-js-qanda-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//js/jquery.popupoverlay.js" id="popupoverlay-js"></script>
+<script type="text/javascript" id="service_finder-js-quote-form-js-extra">
+/* <![CDATA[ */
+var param = {"not_valid":"This value is not valid","email_exist":"Email already exist","req":"This field is required","are_you_sure":"Are you sure?","are_you_sure_cancel_membership":"Are you sure you want to cancel this providers membership?","are_you_sure_reset_business_hours":"Are you sure you want to reset providers business hours?","are_you_sure_reactivate_membership":"Are you sure you want to reactivate this providers membership?","bulk_slots_warning":"All existing slots will be deleted for selected days after this bulk import.","are_you_sure_approve_mail":"Are you sure? Mail will be sent to provider after approve autometically.","login_user_name":"Username is required","login_password":"Password is required","fp_user_login":"Please enter username or email","signup_user_name":"Username is required","signup_first_name":"First name is required","signup_last_name":"Last name is required","signup_address":"Address is required","allowed_country":"This country is not allowed","signup_city":"Please select city from suggestion","nationality_req":"Nationality is required","signup_country":"Country is required","signup_user_email":"The input is not a valid email address","providertermsncondition":"Please check the checkbox","signup_password_empty":"The password is required and cannot be empty","signup_password_length":"Password must be 5 to 15 characters long","signup_password_confirm":"The password and its confirm are not the same","primary_category":"Primary Category is required","category":"Category is required","min_cost":"Minimum cost is required","allowed_booking":"Number of bookings allowed","edit_unavl":"Edit UnAvailability","edit_offers":"Edit Offers","select_date":"Please select date","select_timeslot":"Select Timeslot","select_timeslot_req":"Please select timeslot","select_checkbox":"Please select atleast one checkbox","region":"Region is required","change_status":"Are you sure you want to change the status?","no_data":"No data found in the server","postal_code":"Postal Code is required","edit_service":"Edit Service","edit_article":"Edit Article","edit_applied_job":"Edit Applied Job","view_applied_job":"View Applied Job","service_name":"Service name is required","select_payment":"Please select payment method","set_key":"Please set secret and publish key for stripe","pub_key":"You did not set a valid publishable key","change_complete_status":"Are you sure you want to change the status to complete?","change_incomplete_status":"Are you sure you want to change the status to incomplete?","member":"Member name is required","anyone":"Any One","assign_member":"Assign Member","add_feedback":"Add Feedback","feedback":"Feedback","edit_booking":"Edit Booking","rating":"Please give some rating","comment":"Please enter some comment","any_member":"Please select any member","timeslot_member":"Please select timeslot or member","add_invoice":"Add Invoice","desc_req":"Description is required","price":"The price is required","due_date":"The due date is required","edit_invoice":"Edit Invoice","reminder_mail":"Send Reminder Mail","comment_text":"Comments","cancel":"Cancel","cancel_sub":"Are you sure you want to cancel subscription?","edit_featured_price":"Edit Price","cancel_featured":"Are you sure you want to cancel featured\/featured request?","customer_name":"Customer name is required","add_to_fav":"Add to Fav","select_service":"Please select atleast one service","otp_mail":"Please check email for OTP","otp_pass":"Please enter otp password","otp_right":"Please insert correct otp","reconfirm_email":"Please re-confirm the email address","gen_otp":"Generate One time Password to Confirm Email","edit_text":"Edit","state":"State is required","city":"City is required","service_not_avl":"Service not available in your area","notavl_select_service":"Service not available in your area or Select atleast one service","region_and_service":"Please select region and at least one service","timeslot":"Please select timeslot","member_select":"Please select member","my_fav":"My Favorite","booking_suc":"Congratulations! Your booking has been made successfully","postcode_not_avl":"Postal Code is not available","submit_now":"Submit Now","next_text":"Next","paynow":"Pay Now","dt_first":"First","dt_last":"Last","dt_previous":"Prev","dt_next":"Next","dt_search":"Search","dt_show":"Show","dt_entries":"entries","dt_showing":"Showing","dt_to":"to","dt_of":"of","lang":"nl-NL","hire_if_booking_off_msg":"Provider booking form is closed. Still you want to book him?","select_plan":"Please select plan","add_city":"Add new city","latlng_notfound":"Lat and long cannot be found","captcha_validate":"The Validation code does not match!","no_result":"No results matched","only_digits":"Please enter only digits","not_selected":"Nothing selected","empty_table":"No data available in table","captchaverify":"Please verify the captcha code","enablebusiness":"Enable Claim Business","disbalebusiness":"Disable Claim Business","applied":"Applied","group_req":"Please insert group name","video_req":"Please insert video url","google_client_id_req":"Please insert Google Client ID","google_client_secret_req":"Please insert Google Client Secret","perpersion":"Item","perhour":"Hour","perpersion_short":"Item","perhour_short":"Hr","radius_search":"Please fill address to search by radius","show_more":"Show More Location","show_less":"Show Less Location","currencysymbol":"\u20ac","only_numeric":"Please enter only numerics","yourname":"Your name","email":"Email","website":"Website","entercomments":"Enter your comments...","approve_request":"Are you sure you want to approve?","make_unfeatured":"Do you want to make this provider Unfeatured?","make_unbloacked":"Do you want to make this provider Unblocked?","currentvalue":"Current value","bookings_schedule":"Bookings Schedule","select_starttime":"Please select start time","select_endtime":"Please select end time","start_endtime_balance":"End time should be greater than start time","select_interval":"Please select slot interval","change_interval_warning":"After change current interval existing slots will be lost.","select_weekday":"Please select atleast one week day","payto_provider_confirm":"Are you sure you want to pay provider","payto_provider_change_status":"Are you sure you want to change payment status from pending to paid?","edit_member":"Edit Member","remain_on_same_page":"Remain on Same Page","continue_lable":"Continue","complete_booking_and_pay":"If you press ok then funds will be released by admin to provider.","file_message":"Please choose a file","csv":"File must be a CSV","import_success":"Providers Imported Successfully","import_categories_success":"Categories Imported Successfully","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","select_hours_text":"Please insert hours for service","unavl_days":"Select Unavailable Days","select_option":"Please select above option","valid_number":"Please insert a valid number","booking_dates":"Please select dates","select_region":"Please select region","insert_zipcode":"Please insert zipcode","insufficient_wallet_amount":"Insufficient wallet amount. Please <a href=\"https:\/\/www.facilitairebedrijven.nl\/my-account\/?tabname=wallet\" target=\"_blank\">add balance<\/a> to wallet","amount_range":"Please insert amount between 10 to 100","payment_method_req":"Please select payment method","quote_reply":"Quotation Reply","edit_experience":"Edit Experience","set_member_timeslot":"Set Timeslots","wallet":"Wallet","wallet_balance":"Wallet Balance","checkout":"Checkout","skip_payment":"Skip Payment","have_coupon":"Have a coupon code","verify":"Verify","email_req":"Please fill email address to continue","edit_certificates":"Edit Certificate","edit_qualification":"Edit Qualification","username_exist":"Username already exist","edit_string":"Edit","price_req":"Please enter price","declinereason":"Short description about decline reason","sEmptyTable":"No data available in table","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sInfoEmpty":"Showing 0 to 0 of 0 entries","sInfoFiltered":"(filtered from _MAX_ total entries)","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sProcessing":"Processing...","sSearch":"Search:","sZeroRecords":"No matching records found","sFirst":"First","sLast":"Last","sNext":"Next","sPrevious":"Previous","sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending","routing_number":"Routing Number","account_number":"Account Number","iban_number":"IBAN Number","sort_code":"Sort Code","invitation_sent":"Invitation Sent"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//frontend/modules/get-quote/resources/quote-form.js" id="service_finder-js-quote-form-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/validator/bootstrapValidator.js" id="bootstrapValidator-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/bootbox/bootbox.min.js" id="bootbox-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//frontend/modules/invoice/resources/bootstrap-datepicker.min.js" id="bootstrap-datepicker-js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/locales/bootstrap-datepicker.nl.min.js" id="bootstrap-datepicker-lang-js"></script>
+<script type="text/javascript" id="service_finder-js-newsletter-js-extra">
+/* <![CDATA[ */
+var param = {"not_valid":"This value is not valid","email_exist":"Email already exist","req":"This field is required","are_you_sure":"Are you sure?","are_you_sure_cancel_membership":"Are you sure you want to cancel this providers membership?","are_you_sure_reset_business_hours":"Are you sure you want to reset providers business hours?","are_you_sure_reactivate_membership":"Are you sure you want to reactivate this providers membership?","bulk_slots_warning":"All existing slots will be deleted for selected days after this bulk import.","are_you_sure_approve_mail":"Are you sure? Mail will be sent to provider after approve autometically.","login_user_name":"Username is required","login_password":"Password is required","fp_user_login":"Please enter username or email","signup_user_name":"Username is required","signup_first_name":"First name is required","signup_last_name":"Last name is required","signup_address":"Address is required","allowed_country":"This country is not allowed","signup_city":"Please select city from suggestion","nationality_req":"Nationality is required","signup_country":"Country is required","signup_user_email":"The input is not a valid email address","providertermsncondition":"Please check the checkbox","signup_password_empty":"The password is required and cannot be empty","signup_password_length":"Password must be 5 to 15 characters long","signup_password_confirm":"The password and its confirm are not the same","primary_category":"Primary Category is required","category":"Category is required","min_cost":"Minimum cost is required","allowed_booking":"Number of bookings allowed","edit_unavl":"Edit UnAvailability","edit_offers":"Edit Offers","select_date":"Please select date","select_timeslot":"Select Timeslot","select_timeslot_req":"Please select timeslot","select_checkbox":"Please select atleast one checkbox","region":"Region is required","change_status":"Are you sure you want to change the status?","no_data":"No data found in the server","postal_code":"Postal Code is required","edit_service":"Edit Service","edit_article":"Edit Article","edit_applied_job":"Edit Applied Job","view_applied_job":"View Applied Job","service_name":"Service name is required","select_payment":"Please select payment method","set_key":"Please set secret and publish key for stripe","pub_key":"You did not set a valid publishable key","change_complete_status":"Are you sure you want to change the status to complete?","change_incomplete_status":"Are you sure you want to change the status to incomplete?","member":"Member name is required","anyone":"Any One","assign_member":"Assign Member","add_feedback":"Add Feedback","feedback":"Feedback","edit_booking":"Edit Booking","rating":"Please give some rating","comment":"Please enter some comment","any_member":"Please select any member","timeslot_member":"Please select timeslot or member","add_invoice":"Add Invoice","desc_req":"Description is required","price":"The price is required","due_date":"The due date is required","edit_invoice":"Edit Invoice","reminder_mail":"Send Reminder Mail","comment_text":"Comments","cancel":"Cancel","cancel_sub":"Are you sure you want to cancel subscription?","edit_featured_price":"Edit Price","cancel_featured":"Are you sure you want to cancel featured\/featured request?","customer_name":"Customer name is required","add_to_fav":"Add to Fav","select_service":"Please select atleast one service","otp_mail":"Please check email for OTP","otp_pass":"Please enter otp password","otp_right":"Please insert correct otp","reconfirm_email":"Please re-confirm the email address","gen_otp":"Generate One time Password to Confirm Email","edit_text":"Edit","state":"State is required","city":"City is required","service_not_avl":"Service not available in your area","notavl_select_service":"Service not available in your area or Select atleast one service","region_and_service":"Please select region and at least one service","timeslot":"Please select timeslot","member_select":"Please select member","my_fav":"My Favorite","booking_suc":"Congratulations! Your booking has been made successfully","postcode_not_avl":"Postal Code is not available","submit_now":"Submit Now","next_text":"Next","paynow":"Pay Now","dt_first":"First","dt_last":"Last","dt_previous":"Prev","dt_next":"Next","dt_search":"Search","dt_show":"Show","dt_entries":"entries","dt_showing":"Showing","dt_to":"to","dt_of":"of","lang":"nl-NL","hire_if_booking_off_msg":"Provider booking form is closed. Still you want to book him?","select_plan":"Please select plan","add_city":"Add new city","latlng_notfound":"Lat and long cannot be found","captcha_validate":"The Validation code does not match!","no_result":"No results matched","only_digits":"Please enter only digits","not_selected":"Nothing selected","empty_table":"No data available in table","captchaverify":"Please verify the captcha code","enablebusiness":"Enable Claim Business","disbalebusiness":"Disable Claim Business","applied":"Applied","group_req":"Please insert group name","video_req":"Please insert video url","google_client_id_req":"Please insert Google Client ID","google_client_secret_req":"Please insert Google Client Secret","perpersion":"Item","perhour":"Hour","perpersion_short":"Item","perhour_short":"Hr","radius_search":"Please fill address to search by radius","show_more":"Show More Location","show_less":"Show Less Location","currencysymbol":"\u20ac","only_numeric":"Please enter only numerics","yourname":"Your name","email":"Email","website":"Website","entercomments":"Enter your comments...","approve_request":"Are you sure you want to approve?","make_unfeatured":"Do you want to make this provider Unfeatured?","make_unbloacked":"Do you want to make this provider Unblocked?","currentvalue":"Current value","bookings_schedule":"Bookings Schedule","select_starttime":"Please select start time","select_endtime":"Please select end time","start_endtime_balance":"End time should be greater than start time","select_interval":"Please select slot interval","change_interval_warning":"After change current interval existing slots will be lost.","select_weekday":"Please select atleast one week day","payto_provider_confirm":"Are you sure you want to pay provider","payto_provider_change_status":"Are you sure you want to change payment status from pending to paid?","edit_member":"Edit Member","remain_on_same_page":"Remain on Same Page","continue_lable":"Continue","complete_booking_and_pay":"If you press ok then funds will be released by admin to provider.","file_message":"Please choose a file","csv":"File must be a CSV","import_success":"Providers Imported Successfully","import_categories_success":"Categories Imported Successfully","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","select_hours_text":"Please insert hours for service","unavl_days":"Select Unavailable Days","select_option":"Please select above option","valid_number":"Please insert a valid number","booking_dates":"Please select dates","select_region":"Please select region","insert_zipcode":"Please insert zipcode","insufficient_wallet_amount":"Insufficient wallet amount. Please <a href=\"https:\/\/www.facilitairebedrijven.nl\/my-account\/?tabname=wallet\" target=\"_blank\">add balance<\/a> to wallet","amount_range":"Please insert amount between 10 to 100","payment_method_req":"Please select payment method","quote_reply":"Quotation Reply","edit_experience":"Edit Experience","set_member_timeslot":"Set Timeslots","wallet":"Wallet","wallet_balance":"Wallet Balance","checkout":"Checkout","skip_payment":"Skip Payment","have_coupon":"Have a coupon code","verify":"Verify","email_req":"Please fill email address to continue","edit_certificates":"Edit Certificate","edit_qualification":"Edit Qualification","username_exist":"Username already exist","edit_string":"Edit","price_req":"Please enter price","declinereason":"Short description about decline reason","sEmptyTable":"No data available in table","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sInfoEmpty":"Showing 0 to 0 of 0 entries","sInfoFiltered":"(filtered from _MAX_ total entries)","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sProcessing":"Processing...","sSearch":"Search:","sZeroRecords":"No matching records found","sFirst":"First","sLast":"Last","sNext":"Next","sPrevious":"Previous","sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending","routing_number":"Routing Number","account_number":"Account Number","iban_number":"IBAN Number","sort_code":"Sort Code","invitation_sent":"Invitation Sent"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//frontend/modules/newsletter/resources/newsletter.js" id="service_finder-js-newsletter-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/scripts/autofill.js" id="service_finder-js-search-autofill-js"></script>
+<script type="text/javascript" id="image-manager-js-before">
+/* <![CDATA[ */
+var rwmbFile = {"maxFileUploadsSingle":"You may only upload maximum %d file","maxFileUploadsPlural":"You may only upload maximum %d files"};
+var RWMB = {"url":"https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/images"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/manage-uploads/image-manager.js" id="image-manager-js"></script>
+<script type="text/javascript" id="managefiles-js-before">
+/* <![CDATA[ */
+var rwmbFile = {"maxFileUploadsSingle":"You may only upload maximum %d file","maxFileUploadsPlural":"You may only upload maximum %d files"};
+var RWMB = {"url":"https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/images"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-booking//assets/manage-uploads/managefiles.js" id="managefiles-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-includes/js/plupload/plupload.min.js?ver=2.1.9" id="plupload-js"></script>
+<script type="text/javascript" id="service_finder-js-featured-providers-js-extra">
+/* <![CDATA[ */
+var args = {"fullname":"Please insert your name","email":"The input is not a valid email address","comment":"Please insert comment","myfav":"My Favorite","addtofav":"Add to Fav"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-shortcodes//js/featured-providers.js" id="service_finder-js-featured-providers-js"></script>
+<script type="text/javascript" id="service_finder-js-plugin-custom-js-before">
+/* <![CDATA[ */
+var rtloption = "0";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-shortcodes//js/custom.js" id="service_finder-js-plugin-custom-js"></script>
+<script type="text/javascript" id="service_finder-js-plugin-contactform-js-extra">
+/* <![CDATA[ */
+var args = {"fullname":"Please insert your name","email":"The input is not a valid email address","comment":"Please insert comment","myfav":"My Favorite","addtofav":"Add to Fav"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/sf-shortcodes//js/contactform.js" id="service_finder-js-plugin-contactform-js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/html5shiv.min.js" id="html5shiv-js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/respond.min.js" id="respond-js"></script>
+<![endif]-->
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/fileinput.min.js" id="fileinput-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/owl.carousel.js" id="carousel-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/jquery.magnific-popup.js" id="magnific-popup-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/jquery.parallax-1.1.3.js" id="parallax-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/bootstrap-slider.min.js" id="bootstrap-slider-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/m-custom-scrollbar.min.js" id="custom-scrollbar-js"></script>
+<script type="text/javascript" id="service_finder-js-custom-js-extra">
+/* <![CDATA[ */
+var param = {"not_valid":"This value is not valid","email_exist":"Email already exist","req":"This field is required","are_you_sure":"Are you sure?","are_you_sure_cancel_membership":"Are you sure you want to cancel this providers membership?","are_you_sure_reset_business_hours":"Are you sure you want to reset providers business hours?","are_you_sure_reactivate_membership":"Are you sure you want to reactivate this providers membership?","bulk_slots_warning":"All existing slots will be deleted for selected days after this bulk import.","are_you_sure_approve_mail":"Are you sure? Mail will be sent to provider after approve autometically.","login_user_name":"Username is required","login_password":"Password is required","fp_user_login":"Please enter username or email","signup_user_name":"Username is required","signup_first_name":"First name is required","signup_last_name":"Last name is required","signup_address":"Address is required","allowed_country":"This country is not allowed","signup_city":"Please select city from suggestion","nationality_req":"Nationality is required","signup_country":"Country is required","signup_user_email":"The input is not a valid email address","providertermsncondition":"Please check the checkbox","signup_password_empty":"The password is required and cannot be empty","signup_password_length":"Password must be 5 to 15 characters long","signup_password_confirm":"The password and its confirm are not the same","primary_category":"Primary Category is required","category":"Category is required","min_cost":"Minimum cost is required","allowed_booking":"Number of bookings allowed","edit_unavl":"Edit UnAvailability","edit_offers":"Edit Offers","select_date":"Please select date","select_timeslot":"Select Timeslot","select_timeslot_req":"Please select timeslot","select_checkbox":"Please select atleast one checkbox","region":"Region is required","change_status":"Are you sure you want to change the status?","no_data":"No data found in the server","postal_code":"Postal Code is required","edit_service":"Edit Service","edit_article":"Edit Article","edit_applied_job":"Edit Applied Job","view_applied_job":"View Applied Job","service_name":"Service name is required","select_payment":"Please select payment method","set_key":"Please set secret and publish key for stripe","pub_key":"You did not set a valid publishable key","change_complete_status":"Are you sure you want to change the status to complete?","change_incomplete_status":"Are you sure you want to change the status to incomplete?","member":"Member name is required","anyone":"Any One","assign_member":"Assign Member","add_feedback":"Add Feedback","feedback":"Feedback","edit_booking":"Edit Booking","rating":"Please give some rating","comment":"Please enter some comment","any_member":"Please select any member","timeslot_member":"Please select timeslot or member","add_invoice":"Add Invoice","desc_req":"Description is required","price":"The price is required","due_date":"The due date is required","edit_invoice":"Edit Invoice","reminder_mail":"Send Reminder Mail","comment_text":"Comments","cancel":"Cancel","cancel_sub":"Are you sure you want to cancel subscription?","edit_featured_price":"Edit Price","cancel_featured":"Are you sure you want to cancel featured\/featured request?","customer_name":"Customer name is required","add_to_fav":"Add to Fav","select_service":"Please select atleast one service","otp_mail":"Please check email for OTP","otp_pass":"Please enter otp password","otp_right":"Please insert correct otp","reconfirm_email":"Please re-confirm the email address","gen_otp":"Generate One time Password to Confirm Email","edit_text":"Edit","state":"State is required","city":"City is required","service_not_avl":"Service not available in your area","notavl_select_service":"Service not available in your area or Select atleast one service","region_and_service":"Please select region and at least one service","timeslot":"Please select timeslot","member_select":"Please select member","my_fav":"My Favorite","booking_suc":"Congratulations! Your booking has been made successfully","postcode_not_avl":"Postal Code is not available","submit_now":"Submit Now","next_text":"Next","paynow":"Pay Now","dt_first":"First","dt_last":"Last","dt_previous":"Prev","dt_next":"Next","dt_search":"Search","dt_show":"Show","dt_entries":"entries","dt_showing":"Showing","dt_to":"to","dt_of":"of","lang":"nl-NL","hire_if_booking_off_msg":"Provider booking form is closed. Still you want to book him?","select_plan":"Please select plan","add_city":"Add new city","latlng_notfound":"Lat and long cannot be found","captcha_validate":"The Validation code does not match!","no_result":"No results matched","only_digits":"Please enter only digits","not_selected":"Nothing selected","empty_table":"No data available in table","captchaverify":"Please verify the captcha code","enablebusiness":"Enable Claim Business","disbalebusiness":"Disable Claim Business","applied":"Applied","group_req":"Please insert group name","video_req":"Please insert video url","google_client_id_req":"Please insert Google Client ID","google_client_secret_req":"Please insert Google Client Secret","perpersion":"Item","perhour":"Hour","perpersion_short":"Item","perhour_short":"Hr","radius_search":"Please fill address to search by radius","show_more":"Show More Location","show_less":"Show Less Location","currencysymbol":"\u20ac","only_numeric":"Please enter only numerics","yourname":"Your name","email":"Email","website":"Website","entercomments":"Enter your comments...","approve_request":"Are you sure you want to approve?","make_unfeatured":"Do you want to make this provider Unfeatured?","make_unbloacked":"Do you want to make this provider Unblocked?","currentvalue":"Current value","bookings_schedule":"Bookings Schedule","select_starttime":"Please select start time","select_endtime":"Please select end time","start_endtime_balance":"End time should be greater than start time","select_interval":"Please select slot interval","change_interval_warning":"After change current interval existing slots will be lost.","select_weekday":"Please select atleast one week day","payto_provider_confirm":"Are you sure you want to pay provider","payto_provider_change_status":"Are you sure you want to change payment status from pending to paid?","edit_member":"Edit Member","remain_on_same_page":"Remain on Same Page","continue_lable":"Continue","complete_booking_and_pay":"If you press ok then funds will be released by admin to provider.","file_message":"Please choose a file","csv":"File must be a CSV","import_success":"Providers Imported Successfully","import_categories_success":"Categories Imported Successfully","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","select_hours_text":"Please insert hours for service","unavl_days":"Select Unavailable Days","select_option":"Please select above option","valid_number":"Please insert a valid number","booking_dates":"Please select dates","select_region":"Please select region","insert_zipcode":"Please insert zipcode","insufficient_wallet_amount":"Insufficient wallet amount. Please <a href=\"https:\/\/www.facilitairebedrijven.nl\/my-account\/?tabname=wallet\" target=\"_blank\">add balance<\/a> to wallet","amount_range":"Please insert amount between 10 to 100","payment_method_req":"Please select payment method","quote_reply":"Quotation Reply","edit_experience":"Edit Experience","set_member_timeslot":"Set Timeslots","wallet":"Wallet","wallet_balance":"Wallet Balance","checkout":"Checkout","skip_payment":"Skip Payment","have_coupon":"Have a coupon code","verify":"Verify","email_req":"Please fill email address to continue","edit_certificates":"Edit Certificate","edit_qualification":"Edit Qualification","username_exist":"Username already exist","edit_string":"Edit","price_req":"Please enter price","declinereason":"Short description about decline reason","sEmptyTable":"No data available in table","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sInfoEmpty":"Showing 0 to 0 of 0 entries","sInfoFiltered":"(filtered from _MAX_ total entries)","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sProcessing":"Processing...","sSearch":"Search:","sZeroRecords":"No matching records found","sFirst":"First","sLast":"Last","sNext":"Next","sPrevious":"Previous","sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending","routing_number":"Routing Number","account_number":"Account Number","iban_number":"IBAN Number","sort_code":"Sort Code","invitation_sent":"Invitation Sent"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="service_finder-js-custom-js-before">
+/* <![CDATA[ */
+var showfeatureditem; var showblogitem; var rtloption = "0";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/custom.js" id="service_finder-js-custom-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/masonry.pkgd.min.js" id="masonry-pkgd-min-js"></script>
+<script type="text/javascript" id="service_finder-js-job-apply-js-extra">
+/* <![CDATA[ */
+var param = {"not_valid":"This value is not valid","email_exist":"Email already exist","req":"This field is required","are_you_sure":"Are you sure?","are_you_sure_cancel_membership":"Are you sure you want to cancel this providers membership?","are_you_sure_reset_business_hours":"Are you sure you want to reset providers business hours?","are_you_sure_reactivate_membership":"Are you sure you want to reactivate this providers membership?","bulk_slots_warning":"All existing slots will be deleted for selected days after this bulk import.","are_you_sure_approve_mail":"Are you sure? Mail will be sent to provider after approve autometically.","login_user_name":"Username is required","login_password":"Password is required","fp_user_login":"Please enter username or email","signup_user_name":"Username is required","signup_first_name":"First name is required","signup_last_name":"Last name is required","signup_address":"Address is required","allowed_country":"This country is not allowed","signup_city":"Please select city from suggestion","nationality_req":"Nationality is required","signup_country":"Country is required","signup_user_email":"The input is not a valid email address","providertermsncondition":"Please check the checkbox","signup_password_empty":"The password is required and cannot be empty","signup_password_length":"Password must be 5 to 15 characters long","signup_password_confirm":"The password and its confirm are not the same","primary_category":"Primary Category is required","category":"Category is required","min_cost":"Minimum cost is required","allowed_booking":"Number of bookings allowed","edit_unavl":"Edit UnAvailability","edit_offers":"Edit Offers","select_date":"Please select date","select_timeslot":"Select Timeslot","select_timeslot_req":"Please select timeslot","select_checkbox":"Please select atleast one checkbox","region":"Region is required","change_status":"Are you sure you want to change the status?","no_data":"No data found in the server","postal_code":"Postal Code is required","edit_service":"Edit Service","edit_article":"Edit Article","edit_applied_job":"Edit Applied Job","view_applied_job":"View Applied Job","service_name":"Service name is required","select_payment":"Please select payment method","set_key":"Please set secret and publish key for stripe","pub_key":"You did not set a valid publishable key","change_complete_status":"Are you sure you want to change the status to complete?","change_incomplete_status":"Are you sure you want to change the status to incomplete?","member":"Member name is required","anyone":"Any One","assign_member":"Assign Member","add_feedback":"Add Feedback","feedback":"Feedback","edit_booking":"Edit Booking","rating":"Please give some rating","comment":"Please enter some comment","any_member":"Please select any member","timeslot_member":"Please select timeslot or member","add_invoice":"Add Invoice","desc_req":"Description is required","price":"The price is required","due_date":"The due date is required","edit_invoice":"Edit Invoice","reminder_mail":"Send Reminder Mail","comment_text":"Comments","cancel":"Cancel","cancel_sub":"Are you sure you want to cancel subscription?","edit_featured_price":"Edit Price","cancel_featured":"Are you sure you want to cancel featured\/featured request?","customer_name":"Customer name is required","add_to_fav":"Add to Fav","select_service":"Please select atleast one service","otp_mail":"Please check email for OTP","otp_pass":"Please enter otp password","otp_right":"Please insert correct otp","reconfirm_email":"Please re-confirm the email address","gen_otp":"Generate One time Password to Confirm Email","edit_text":"Edit","state":"State is required","city":"City is required","service_not_avl":"Service not available in your area","notavl_select_service":"Service not available in your area or Select atleast one service","region_and_service":"Please select region and at least one service","timeslot":"Please select timeslot","member_select":"Please select member","my_fav":"My Favorite","booking_suc":"Congratulations! Your booking has been made successfully","postcode_not_avl":"Postal Code is not available","submit_now":"Submit Now","next_text":"Next","paynow":"Pay Now","dt_first":"First","dt_last":"Last","dt_previous":"Prev","dt_next":"Next","dt_search":"Search","dt_show":"Show","dt_entries":"entries","dt_showing":"Showing","dt_to":"to","dt_of":"of","lang":"nl-NL","hire_if_booking_off_msg":"Provider booking form is closed. Still you want to book him?","select_plan":"Please select plan","add_city":"Add new city","latlng_notfound":"Lat and long cannot be found","captcha_validate":"The Validation code does not match!","no_result":"No results matched","only_digits":"Please enter only digits","not_selected":"Nothing selected","empty_table":"No data available in table","captchaverify":"Please verify the captcha code","enablebusiness":"Enable Claim Business","disbalebusiness":"Disable Claim Business","applied":"Applied","group_req":"Please insert group name","video_req":"Please insert video url","google_client_id_req":"Please insert Google Client ID","google_client_secret_req":"Please insert Google Client Secret","perpersion":"Item","perhour":"Hour","perpersion_short":"Item","perhour_short":"Hr","radius_search":"Please fill address to search by radius","show_more":"Show More Location","show_less":"Show Less Location","currencysymbol":"\u20ac","only_numeric":"Please enter only numerics","yourname":"Your name","email":"Email","website":"Website","entercomments":"Enter your comments...","approve_request":"Are you sure you want to approve?","make_unfeatured":"Do you want to make this provider Unfeatured?","make_unbloacked":"Do you want to make this provider Unblocked?","currentvalue":"Current value","bookings_schedule":"Bookings Schedule","select_starttime":"Please select start time","select_endtime":"Please select end time","start_endtime_balance":"End time should be greater than start time","select_interval":"Please select slot interval","change_interval_warning":"After change current interval existing slots will be lost.","select_weekday":"Please select atleast one week day","payto_provider_confirm":"Are you sure you want to pay provider","payto_provider_change_status":"Are you sure you want to change payment status from pending to paid?","edit_member":"Edit Member","remain_on_same_page":"Remain on Same Page","continue_lable":"Continue","complete_booking_and_pay":"If you press ok then funds will be released by admin to provider.","file_message":"Please choose a file","csv":"File must be a CSV","import_success":"Providers Imported Successfully","import_categories_success":"Categories Imported Successfully","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","select_hours_text":"Please insert hours for service","unavl_days":"Select Unavailable Days","select_option":"Please select above option","valid_number":"Please insert a valid number","booking_dates":"Please select dates","select_region":"Please select region","insert_zipcode":"Please insert zipcode","insufficient_wallet_amount":"Insufficient wallet amount. Please <a href=\"https:\/\/www.facilitairebedrijven.nl\/my-account\/?tabname=wallet\" target=\"_blank\">add balance<\/a> to wallet","amount_range":"Please insert amount between 10 to 100","payment_method_req":"Please select payment method","quote_reply":"Quotation Reply","edit_experience":"Edit Experience","set_member_timeslot":"Set Timeslots","wallet":"Wallet","wallet_balance":"Wallet Balance","checkout":"Checkout","skip_payment":"Skip Payment","have_coupon":"Have a coupon code","verify":"Verify","email_req":"Please fill email address to continue","edit_certificates":"Edit Certificate","edit_qualification":"Edit Qualification","username_exist":"Username already exist","edit_string":"Edit","price_req":"Please enter price","declinereason":"Short description about decline reason","sEmptyTable":"No data available in table","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sInfoEmpty":"Showing 0 to 0 of 0 entries","sInfoFiltered":"(filtered from _MAX_ total entries)","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sProcessing":"Processing...","sSearch":"Search:","sZeroRecords":"No matching records found","sFirst":"First","sLast":"Last","sNext":"Next","sPrevious":"Previous","sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending","routing_number":"Routing Number","account_number":"Account Number","iban_number":"IBAN Number","sort_code":"Sort Code","invitation_sent":"Invitation Sent"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/themes/service-finder/inc/js/job-apply.js" id="service_finder-js-job-apply-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/comments-ratings/js/jquery.raty.js?ver=1.1.6" id="jquery-raty-js"></script>
+<script type="text/javascript" id="reviews-scripts-js-extra">
+/* <![CDATA[ */
+var pixreviews = {"hints":["Verschrikkelijk","Slecht","Gemiddeld","Heel goed","Uitstekend"]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/comments-ratings/js/reviews.js?ver=1.1.6" id="reviews-scripts-js"></script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.4.3" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0000000000000000818030539140313095458623138256371021270751953125e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/www.facilitairebedrijven.nl\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.4.3" id="wc-order-attribution-js"></script>
+<script type="text/javascript" id="ultimate-vc-addons-smooth-scroll-js-extra">
+/* <![CDATA[ */
+var php_vars = {"step":"80","speed":"480"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.facilitairebedrijven.nl/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/SmoothScroll.min.js?ver=3.19.13" id="ultimate-vc-addons-smooth-scroll-js"></script>
+<script></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96396205-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96396205-7');
+</script>
+</body></html>

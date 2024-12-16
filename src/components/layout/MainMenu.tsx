@@ -90,11 +90,23 @@ const MainMenu = () => {
   const drawer = (
     <Box>
       <Toolbar>
-        <img
-          src="/fb-logo.png"
-          alt="Facilitaire Bedrijven"
-          style={{ height: 32 }}
-        />
+        <Box 
+          sx={{ 
+            display: 'flex', 
+            alignItems: 'center',
+            padding: '16px'
+          }}
+        >
+          <img
+            src="/logo-2022-nieuw.png"
+            alt="Facilitaire Bedrijven"
+            style={{ 
+              height: 40,
+              width: 'auto',
+              objectFit: 'contain'
+            }}
+          />
+        </Box>
       </Toolbar>
       <Divider />
       <List>
@@ -133,11 +145,15 @@ const MainMenu = () => {
             <MenuIcon />
           </IconButton>
 
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: 'none', sm: 'block' }, ml: 2 }}>
             <img
-              src="/fb-logo.png"
+              src="/logo-2022-nieuw.png"
               alt="Facilitaire Bedrijven"
-              style={{ height: 32 }}
+              style={{ 
+                height: 40,
+                width: 'auto',
+                objectFit: 'contain'
+              }}
             />
           </Box>
 
