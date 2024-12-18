@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import {
   Paper,
   TextField,
@@ -7,7 +6,8 @@ import {
   Typography,
   Alert,
   InputAdornment,
-  Box
+  Box,
+  CircularProgress
 } from '@mui/material';
 import {
   Person as PersonIcon,
@@ -22,41 +22,39 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const navigate = useNavigate();
   const { login } = useAuth();
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
     setError('');
+    
+    // Validatie
+    if (!username.trim() || !password.trim()) {
+      setError('Vul beide velden in');
+      return;
+    }
+
+    setLoading(true);
 
     try {
-      if (!username || !password) {
-        setError('Vul beide velden in');
-        return;
-      }
-
       const data = await loginUser(username, password);
-      console.log('Login response:', data); // Debug log
       
       if (!data.token || !data.user?.role) {
-        console.error('Invalid server response:', data);
-        setError('Ongeldige response van server');
-        return;
+        console.error('Ongeldige server response:', data);
+        throw new Error('Er ging iets mis bij het inloggen');
       }
 
-      // Login succesvol, sla token op en navigeer naar juiste dashboard
-      login(data.token, data.user.role);
-      
-      const dashboardPath = data.user.role === 'provider' ? '/provider-dashboard' : '/klant-dashboard';
-      console.log('Navigating to:', dashboardPath); // Debug log
-      navigate(dashboardPath);
-    } catch (err) {
-      if (err instanceof Error) {
-        setError(err.message);
-      } else {
-        setError('Er ging iets mis bij het inloggen');
+      // Controleer of de rol geldig is
+      if (data.user.role !== 'klant' && data.user.role !== 'provider') {
+        throw new Error('Ongeldige gebruikersrol ontvangen');
       }
+
+      // Login via AuthContext
+      await login(data.token, data.user.role);
+      
+    } catch (err) {
+      console.error('Login error:', err);
+      setError(err instanceof Error ? err.message : 'Er ging iets mis bij het inloggen');
     } finally {
       setLoading(false);
     }
@@ -105,6 +103,7 @@ const Login = () => {
             margin="normal"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            disabled={loading}
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
@@ -122,6 +121,7 @@ const Login = () => {
             margin="normal"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            disabled={loading}
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
@@ -137,9 +137,26 @@ const Login = () => {
             variant="contained"
             size="large"
             disabled={loading}
-            sx={{ mt: 3 }}
+            sx={{ 
+              mt: 3,
+              position: 'relative'
+            }}
           >
-            {loading ? 'Bezig met inloggen...' : 'Inloggen'}
+            {loading ? (
+              <>
+                <CircularProgress
+                  size={24}
+                  sx={{
+                    position: 'absolute',
+                    left: '50%',
+                    marginLeft: '-12px'
+                  }}
+                />
+                Bezig met inloggen...
+              </>
+            ) : (
+              'Inloggen'
+            )}
           </Button>
         </form>
       </Paper>

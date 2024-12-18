@@ -1,4 +1,6 @@
-const API_BASE_URL = 'http://localhost:5001';
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? '' // Empty string for same-origin in production
+  : 'http://localhost:5001';
 
 export const fetchWithAuth = async (url: string, options: RequestInit = {}) => {
   const token = localStorage.getItem('wp_token');
